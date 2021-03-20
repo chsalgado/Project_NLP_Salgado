@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project_NLP_Salgado", "Project_NLP_Salgado\Project_NLP_Salgado.csproj", "{A8137883-610E-41A9-854D-52F6EACD08A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatasetSplitter", "DatasetSplitter\DatasetSplitter.csproj", "{EA142433-9C2E-4628-A260-97E1AE074B98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8137883-610E-41A9-854D-52F6EACD08A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8137883-610E-41A9-854D-52F6EACD08A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8137883-610E-41A9-854D-52F6EACD08A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8137883-610E-41A9-854D-52F6EACD08A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA142433-9C2E-4628-A260-97E1AE074B98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA142433-9C2E-4628-A260-97E1AE074B98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA142433-9C2E-4628-A260-97E1AE074B98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA142433-9C2E-4628-A260-97E1AE074B98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED2CA17F-89BA-419D-86BD-EE2BB3594C39}
+	EndGlobalSection
+EndGlobal
