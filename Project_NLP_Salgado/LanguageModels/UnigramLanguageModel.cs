@@ -20,7 +20,7 @@ namespace Project_NLP_Salgado
             this.NGramCounts[new Unigram { w = string.Empty }.GetComparisonKey()] = trainingCorpus.TotalWordsCount;
         }
 
-        public override double CalculateDocumentLogProbability(Corpus testCorpus, double kSmoothingValue = 0.0, int validVocabularySize = 0)
+        public override double CalculateDocumentLogProbability(Corpus testCorpus)
         {
             double corpusLogP = 0.0;
 
@@ -31,7 +31,7 @@ namespace Project_NLP_Salgado
 
                 foreach (var w in sentence)
                 {
-                    double qW = ComputeWordProbability(string.Empty, string.Empty, w, kSmoothingValue, validVocabularySize);
+                    double qW = ComputeWordProbability(string.Empty, string.Empty, w);
 
                     // Add to sentence probability
                     logPs += Math.Log2(qW);
@@ -43,7 +43,7 @@ namespace Project_NLP_Salgado
             return corpusLogP;
         }
 
-        public override double ComputeWordProbability(string u, string v, string w, double kSmoothingValue, int validVocabularySize)
+        public override double ComputeWordProbability(string u, string v, string w)
         {
             // Total token count in training to compute q(w)
             int totalTokenCount = this.NGramCounts[new Unigram { w = string.Empty }.GetComparisonKey()];
@@ -52,7 +52,7 @@ namespace Project_NLP_Salgado
 
             // q(w) = c(w)/c()
             // q(w)_{addK} = (c(w) + k)/(c() + k|V*|) 
-            double qW = ComputeWordProbabilityWithAddKSmooth(wCount, totalTokenCount, kSmoothingValue, validVocabularySize);
+            double qW = this.Smoother.ComputeSmoothedWordProbability(u, v, w, wCount, totalTokenCount);
 
             return qW;
         }

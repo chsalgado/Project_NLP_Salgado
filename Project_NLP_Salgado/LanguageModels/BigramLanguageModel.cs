@@ -34,7 +34,7 @@ namespace Project_NLP_Salgado
             }
         }
 
-        public override double CalculateDocumentLogProbability(Corpus testCorpus, double kSmoothingValue = 0.0, int validVocabularySize = 0)
+        public override double CalculateDocumentLogProbability(Corpus testCorpus)
         {
             double corpusLogP = 0.0;
 
@@ -48,7 +48,7 @@ namespace Project_NLP_Salgado
 
                 foreach (var w in sentence)
                 {
-                    double qWv = ComputeWordProbability(string.Empty, v, w, kSmoothingValue, validVocabularySize);
+                    double qWv = ComputeWordProbability(string.Empty, v, w);
 
                     // Add to sentence probability
                     logPs += Math.Log2(qWv);
@@ -63,7 +63,7 @@ namespace Project_NLP_Salgado
             return corpusLogP;
         }
 
-        public override double ComputeWordProbability(string u, string v, string w, double kSmoothingValue, int validVocabularySize)
+        public override double ComputeWordProbability(string u, string v, string w)
         {
             Unigram vUnigram = new Unigram { w = v };
             Bigram vwBigram = new Bigram { v = v, w = w };
@@ -74,7 +74,7 @@ namespace Project_NLP_Salgado
 
             // q(w|v) = c(v, w)/c(v)
             // q(w|v)_{addK} = (c(v, w) + k)/(c(v) + k|V*|) 
-            double qWv = ComputeWordProbabilityWithAddKSmooth(vwCount, vCount, kSmoothingValue, validVocabularySize);
+            double qWv = this.Smoother.ComputeSmoothedWordProbability(u,v, w, vwCount, vCount);
 
             return qWv;
         }

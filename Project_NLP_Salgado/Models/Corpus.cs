@@ -33,13 +33,10 @@ namespace Project_NLP_Salgado
             }
         }
 
-        public static void InitializeAndFillValidVocabulary(string path, LanguageModelHyperparameters hyperparameters)
+        public static void InitializeAndFillValidVocabulary(Corpus corpus, LanguageModelHyperparameters hyperparameters)
         {
-            var allTrainingCorpus = new Corpus();
-            allTrainingCorpus.InitializeAndPreprocessCategoryCorpus(path, "ALLCATEGORIES", hyperparameters);
-
-           // Get our valid vocabulary by removing the bottom x% of words by frequency
-            Corpus.ValidVocabulary = TextProcessingUtilities.GetValidVocabulary(allTrainingCorpus, hyperparameters.UnkRatio);
+            // Get our valid vocabulary by removing the bottom x% of words by frequency
+            Corpus.ValidVocabulary = TextProcessingUtilities.GetValidVocabulary(corpus, hyperparameters.UnkRatio);
         }
 
         public IList<List<string>> AllTokenizedSentences { get; set; }

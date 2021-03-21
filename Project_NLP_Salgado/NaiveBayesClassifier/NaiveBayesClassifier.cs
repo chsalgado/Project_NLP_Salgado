@@ -32,8 +32,6 @@ namespace Project_NLP_Salgado
             TextProcessingUtilities.UnkCorpus(testCorpus, Corpus.ValidVocabulary);
             TextProcessingUtilities.AddStopTokens(testCorpus);
 
-            int vocabularySizeToUse = Corpus.ValidVocabulary.Count + 2; // Include STOP and UNK symbols
-
             (string category, double logProbability) categoryWithHighestLogProbability = (string.Empty, double.NegativeInfinity);
 
             foreach (var categoryLanguageModel in hyperparameters.CategoryNGramLanguageModelsMap)
@@ -41,7 +39,7 @@ namespace Project_NLP_Salgado
                 // P(c_i) = N_i / N
                 var categoryLogProbability = Math.Log2(CategoryTrainingDocumentsCount[categoryLanguageModel.Key] * 1.0 / TotalTrainingDocuments);
                 // mult(P(d_j | c_i)) = P(d | c_i)
-                var documentLogProbabilityForCategory = categoryLanguageModel.Value.CalculateDocumentLogProbability(testCorpus, hyperparameters.K, vocabularySizeToUse);
+                var documentLogProbabilityForCategory = categoryLanguageModel.Value.CalculateDocumentLogProbability(testCorpus);
 
                 // P(c_i | d) = mult(P(d_j | c_i)) P(c_i)
                 // P(c_i | d) = P(d | c_i) P(c_i)

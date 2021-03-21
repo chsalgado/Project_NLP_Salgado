@@ -8,8 +8,8 @@ namespace Project_NLP_Salgado
     {
         void TrainLanguageModel(Corpus corpus);
 
-        double CalculateDocumentLogProbability(Corpus corpus, double kSmoothingValue, int validVocabularySize);
+        double CalculateDocumentLogProbability(Corpus corpus);
 
-        double ComputeWordProbability(string u, string v, string w, double kSmoothingValue, int validVocabularySize);
+        double ComputeWordProbability(string u, string v, string w);
     }
 }
