@@ -4,6 +4,8 @@ namespace Project_NLP_Salgado
 {
     public abstract class NGramLanguageModel : INGramLanguageModel
     {
+        protected int UniqueNGramsCount { get; set; }
+
         public ISmoother Smoother { get; set; }
 
         protected IDictionary<string, int> NGramCounts = new Dictionary<string, int>();

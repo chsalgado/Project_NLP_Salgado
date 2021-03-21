@@ -1,0 +1,104 @@
+11|Rupert Holmes|Escape (The Pina Colada Song)|90|23|positive
+18|Diana Ross|Upside Down|35|0|positive
+27|Ambrosia|Biggest Part Of Me|56|0|positive
+29|Spinners|Cupid/I've Loved You For A Long Time|46|0|positive
+30|Jermaine Jackson|Let's Get Serious|40|0|positive
+40|M|Pop Muzik|33|9|positive
+43|Stevie Wonder|Send One Your Love|77|5|positive
+45|Cliff Richard|We Don't Talk Anymore|15|0|positive
+60|Steve Forbert|Romeo's Tune|18|6|positive
+85|Eddie Rabbitt|Drivin' My Life Away|10|0|positive
+120|Climax Blues Band|I Love You|60|0|positive
+139|Commodores|Lady (You Bring Me Up)|18|3|positive
+140|Don Mclean|Crying|89|49|positive
+148|Alan Parsons Project|Time|54|7|positive
+166|Alan Parsons Project|Games People Play|39|4|positive
+169|Stevie Wonder|Master Blaster|161|45|positive
+177|Alabama|Feels So Right|17|6|positive
+194|Devo|Whip It|28|1|positive
+214|Toto|Rosanna|4|0|positive
+220|Rick Springfield|Don't Talk To Strangers|9|0|positive
+222|Willie Nelson|Always On My Mind|20|4|positive
+223|Cars|Shake It Up|25|2|positive
+231|Fleetwood Mac|Hold Me|47|4|positive
+235|Dan Fogelberg|Leader Of The Band|34|6|positive
+280|Air Supply|Here I Am|89|12|positive
+281|Michael McDonald|I Keep Forgettin'|60|0|positive
+294|Rolling Stones|Waiting On A Friend|40|4|positive
+307|Daryl Hall and John Oates|Maneater|16|2|positive
+330|After The Fire|Der Kommissar|24|2|positive
+335|Men Without Hats|The Safety Dance|43|1|positive
+336|Toni Basil|Mickey|45|3|positive
+343|Billy Joel|Allentown|31|0|positive
+352|Clash|Rock The Casbah|21|3|positive
+355|Duran Duran|Is There Something I Should Know|31|2|positive
+356|Laura Branigan|Gloria|48|0|positive
+408|Yes|Owner Of A Lonely Heart|68|2|positive
+412|Lionel Richie|All Night Long (All Night)|46|6|positive
+427|Matthew Wilder|Break My Stride|32|1|positive
+433|Elton John|I Guess That's Why They Call It The Blues|87|21|positive
+451|Billy Ocean|Caribbean Queen|20|0|positive
+455|Huey Lewis and The News|I Want A New Drug|32|3|positive
+484|Debarge|Time Will Reveal|35|10|positive
+492|Shalamar|Dancing In The Sheets|61|0|positive
+496|Peter Schilling|Major Tom (Coming Home)|15|0|positive
+498|Night Ranger|When You Close Your Eyes|56|4|positive
+508|Dire Straits|Money For Nothing|14|4|positive
+530|Glenn Frey|You Belong To The City|14|4|positive
+534|Honeydrippers|Sea Of Love|88|24|positive
+541|Howard Jones|Things Can Only Get Better|22|0|positive
+549|Diana Ross|Missing You|69|10|positive
+552|Billy Ocean|Suddenly|148|9|positive
+565|Cyndi Lauper|All Through The Night|38|0|positive
+39|Kim Carnes|More Love|0|13|negative
+47|Eagles|Heartache Tonight|11|4|negative
+50|Rupert Holmes|Him|20|20|negative
+62|Eagles|I Can't Tell You Why|13|6|negative
+69|Benny Mardones|Into The Night|11|4|negative
+70|Pure Prairie League|Let Me Love You Tonight|17|17|negative
+71|Genesis|Misunderstanding|15|17|negative
+78|Linda Ronstadt|Hurt So Bad|34|34|negative
+81|Eagles|The Long Run|10|2|negative
+83|Pat Benatar|Heartbreaker|25|20|negative
+94|Fleetwood Mac|Tusk|9|3|negative
+96|Charlie Daniels Band|In America|13|7|negative
+118|Grover Washington jr.|Just The Two Of Us|24|55|negative
+123|ABBA|The Winner Takes It All|23|16|negative
+137|Foreigner|Urgent|20|14|negative
+147|Greg Kihn Band|The Breakup Song|0|20|negative
+156|Journey|Who's Crying Now|10|9|negative
+171|Police|Don't Stand So Close To Me|25|17|negative
+175|Eddie Rabbitt|Step By Step|8|8|negative
+188|Ronnie Milsap|Smoky Mountain Rain|3|12|negative
+197|Rosanne Cash|Seven Year Ache|6|3|negative
+203|Joan Jett and The Blackhearts|I Love Rock N' Roll|16|8|negative
+216|Tommy Tutone|867-5309 (Jenny)|9|3|negative
+226|Ray Parker Jr.|The Other Woman|20|20|negative
+230|Men At Work|Who Can It Be Now?|10|1|negative
+242|Buckner and Garcia|Pac-Man Fever|12|23|negative
+244|Daryl Hall and John Oates|Private Eyes|12|3|negative
+247|Juice Newton|Love's Been A Little Bit Hard On Me|0|7|negative
+255|Alabama|Love In The First Degree|8|4|negative
+267|A Flock Of Seagulls|I Ran|6|2|negative
+289|Pointer Sisters|Should I Do It|25|50|negative
+292|Little River Band|Man On Your Mind|6|6|negative
+301|Police|Every Breath You Take|30|22|negative
+319|Golden Earring|Twilight Zone|12|4|negative
+348|Don Henley|Dirty Laundry|14|7|negative
+353|Madness|Our House|18|13|negative
+354|Men At Work|Overkill|12|11|negative
+360|Styx|Don't Let It End|28|35|negative
+361|Laura Branigan|How Am I Supposed To Live Without You|25|25|negative
+380|Dionne Warwick|Heartbreaker|24|21|negative
+395|Stephen Bishop|It Might Be You|6|18|negative
+454|Elton John|Sad Songs (Say So Much)|12|6|negative
+493|Rolling Stones|Undercover Of The Night|16|10|negative
+499|Billy Squier|Rock Me Tonite|10|5|negative
+507|Tears For Fears|Everybody Wants To Rule The World|8|1|negative
+521|Tears For Fears|Shout|9|2|negative
+536|Duran Duran|The Wild Boys|10|2|negative
+555|Sting|If You Love Somebody Set Them Free|21|55|negative
+569|Kool and The Gang|Misled|0|7|negative
+578|Julian Lennon|Valotte|10|5|negative
+586|John Cougar Mellencamp|Lonely Ol' Night|16|8|negative
+592|Bruce Springsteen|Born In The USA|10|12|negative

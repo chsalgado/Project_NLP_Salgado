@@ -1,0 +1,104 @@
+1688|Ghost Town Dj's|My Boo|125|0|positive
+1733|Whitney Houston|I Believe In You And Me|81|0|positive
+1734|Freaknasty|Da' Dip|85|0|positive
+1746|Lil' Kim|Not Tonight|65|10|positive
+1760|Sheryl Crow|Everyday Is A Winding Road|41|2|positive
+1769|Chumbawamba|Tubthumping|65|0|positive
+1777|Bruce Springsteen|Secret Garden|57|22|positive
+1803|Shania Twain|You're Still The One|69|5|positive
+1813|Celine Dion|My Heart Will Go On|108|24|positive
+1842|All Saints|Never Ever|56|20|positive
+1847|Puff Daddy|Come With Me|24|6|positive
+1877|Monifah|Touch It|260|0|positive
+1901|Cher|Believe|107|0|positive
+1930|Sugar Ray|Someday|104|0|positive
+1954|Jewel|Hands|68|17|positive
+1986|Britney Spears|Sometimes|42|0|positive
+2011|Creed|Higher|16|2|positive
+2012|Aaliyah|Try Again|59|2|positive
+2048|Smash Mouth|Then The Morning Comes|43|8|positive
+2065|Donell Jones|U Know What's Up|89|3|positive
+2080|George Strait|The Best Day|16|0|positive
+2088|Alice Deejay|Better Off Alone|115|1|positive
+2109|Lenny Kravitz|Again|54|7|positive
+2127|Faith Hill|The Way You Love Me|48|2|positive
+2128|Dream|He Loves U Not|42|12|positive
+2148|Jagged Edge|Promise|107|0|positive
+2150|Ginuwine|Differences|66|5|positive
+2175|U2|Beautiful Day|46|0|positive
+2203|Nelly|Hot in Herre|52|0|positive
+2217|Mary J. Blige|Family Affair|45|3|positive
+2245|Kylie Minogue|Can't Get You Out Of My Head|107|2|positive
+2246|Five For Fighting|Superman (It's not Easy)|87|45|positive
+2268|Ginuwine|Differences|66|5|positive
+2271|No Doubt feat. Lady Saw|Underneath it All|74|9|positive
+2274|Sean Paul|Gimme the Light|55|0|positive
+2282|Kenny Chesney|The Good Stuff|34|4|positive
+2286|Alan Jackson|Drive (For Daddy Gene)|34|0|positive
+2299|Justin Timberlake|Like I Love You|117|3|positive
+2326|Black Eyed Peas|Where is the Love?|69|6|positive
+2351|Ludacris feat. Shawnna|Stand Up|12|0|positive
+2366|Sean Paul|Like Glue|23|3|positive
+2367|Christina Aguilera feat. Lil' Kim|Can't Hold us Down|61|6|positive
+2394|R. Kelly|Step in the Name of Love|51|8|positive
+2422|Nina Sky feat. Jabba|Move Ya Body|139|3|positive
+2458|Destiny's Child|Lose My Breath|104|2|positive
+2472|Monica|U Should've Known Better|40|8|positive
+2477|Five For Fighting|100 Years|108|14|positive
+2487|Chingy feat. Ludacris and Snoop Dogg|Holidae In|20|0|positive
+2492|Avril Lavigne|Don't Tell Me|18|7|positive
+2504|Kelly Clarkson|Since U Been Gone|32|5|positive
+2506|Kanye West feat. Jamie Foxx|Gold Digger|47|11|positive
+2509|The Pussycat Dolls feat. Busta Rhymes|Don't Cha|50|0|positive
+2051|Eminem|The Real Slim Shady|18|10|negative
+2059|Red Hot Chili Peppers|Otherside|14|9|negative
+2067|Kid Rock|Only God Knows Why|22|18|negative
+2073|Dr. Dre feat. Eminem|Forget About Dre|12|10|negative
+2076|Dr. Dre feat. Snoop Dogg|The Next Episode|12|16|negative
+2077|Britney Spears|From The Bottom Of My Broken Heart|43|41|negative
+2122|City High|What Would You Do?|30|39|negative
+2147|Aerosmith|Jaded|17|18|negative
+2164|Sunshine Anderson|Heard It All Before|33|24|negative
+2196|3 Doors Down|Be Like That|12|12|negative
+2200|Fuel|Hemorrhage (In My Hands)|26|20|negative
+2202|Ashanti|Foolish|33|32|negative
+2210|Puddle Of Mudd|Blurry|14|11|negative
+2211|Avril Lavigne|Complicated|26|17|negative
+2220|Creed|My Sacrifice|9|4|negative
+2227|Creed|One Last Breath|11|12|negative
+2230|Cam'ron feat. Juelz Santana|Oh Boy|12|4|negative
+2247|Eminem|Cleanin' out my Closet|8|25|negative
+2270|OutKast feat. Killer Mike|The Whole World|50|50|negative
+2279|Mary J. Blige|No More Drama|28|20|negative
+2298|Alan Jackson|Where Were You (When the World Stopped Turning)|18|12|negative
+2310|Evanescence feat. Paul McCoy|Bring me to Life|16|12|negative
+2314|50 Cent feat. Nate Dogg|21 Questions|3|6|negative
+2321|50 Cent|P.I.M.P.|13|5|negative
+2363|50 Cent|Wanksta|9|3|negative
+2380|2Pac|Thugz Mansion|20|30|negative
+2389|Eminem|Sing for the Moment|11|5|negative
+2393|Field Mob|Sick of Being Lonely|0|40|negative
+2402|Usher|Burn|49|40|negative
+2413|Juvenile feat. Soulja Slim|Slow Motion|40|95|negative
+2414|Petey Pablo|Freek-a-Leek|24|16|negative
+2417|Nickelback|Someday|9|5|negative
+2419|Evanescence|My Immortal|60|65|negative
+2421|Jay-Z|Dirt Off Your Shoulder|16|7|negative
+2430|Nelly feat. Jaheim|My Place|8|8|negative
+2433|Linkin Park|Numb|12|22|negative
+2442|Ludacris|Splash Waterfalls|24|32|negative
+2455|Lloyd Banks|On Fire|3|9|negative
+2460|Sean Paul feat. Sasha|I'm Still in Love with You|16|8|negative
+2473|Ryan Cabrera|On the Way Down|29|20|negative
+2479|Linkin Park|Breaking the Habit|11|4|negative
+2499|John Michael Montgomery|Letters from Home|15|14|negative
+2507|Green Day|Boulevard of Broken Dreams|12|9|negative
+2524|The Game feat. 50 Cent|Hate It or Love It|14|18|negative
+2536|Papa Roach|Scars|8|35|negative
+2538|3 Doors Down|Let Me Go|11|7|negative
+2543|Nickelback|Photograph|10|7|negative
+2544|Akon|Lonely|37|51|negative
+2546|Green Day|Wake Me up When September Ends|33|42|negative
+2552|Young Jeezy feat. Akon|Soul Survivor|100|100|negative
+2556|Alicia Keys|Karma|13|12|negative
+2559|Eminem|Mockingbird|18|17|negative

@@ -24,7 +24,7 @@ namespace Project_NLP_Salgado
             TotalTrainingDocuments = allTrainingDocs.Count;
         }
         
-        public static string ClassifyDocument(string documentPath, LanguageModelHyperparameters hyperparameters)
+        public static IDictionary<string, double> GetCategoryProbabilitiesForDocument(string documentPath, LanguageModelHyperparameters hyperparameters)
         {
             var testCorpus = new Corpus();
             testCorpus.InitializeAndPreprocessDocument(documentPath, hyperparameters.IgnoreCase);
@@ -32,7 +32,7 @@ namespace Project_NLP_Salgado
             TextProcessingUtilities.UnkCorpus(testCorpus, Corpus.ValidVocabulary);
             TextProcessingUtilities.AddStopTokens(testCorpus);
 
-            (string category, double logProbability) categoryWithHighestLogProbability = (string.Empty, double.NegativeInfinity);
+            IDictionary<string, double> categoryWithHighestLogProbability = new Dictionary<string, double>();
 
             foreach (var categoryLanguageModel in hyperparameters.CategoryNGramLanguageModelsMap)
             {
@@ -46,13 +46,10 @@ namespace Project_NLP_Salgado
                 var categoryLogProbabilityForDocument = documentLogProbabilityForCategory + categoryLogProbability;
 
                 // category = argmax_i mult(P(d_j | c_i)) P(c_i)
-                if (categoryLogProbabilityForDocument > categoryWithHighestLogProbability.logProbability)
-                {
-                    categoryWithHighestLogProbability = (categoryLanguageModel.Key, categoryLogProbabilityForDocument);
-                }
+                categoryWithHighestLogProbability[categoryLanguageModel.Key] = categoryLogProbabilityForDocument;
             }
 
-            return categoryWithHighestLogProbability.category;
+            return categoryWithHighestLogProbability;
         }
     }
 }

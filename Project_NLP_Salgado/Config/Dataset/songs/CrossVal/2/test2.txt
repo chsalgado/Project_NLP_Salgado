@@ -1,0 +1,104 @@
+579|Power Station|Some Like It Hot|35|0|positive
+597|Don Henley|All She Wants To Do Is Dance|51|4|positive
+611|Whitney Houston|Greatest Love Of All|122|5|positive
+612|Atlantic Starr|Secret Lovers|82|2|positive
+629|Madonna|Papa Don't Preach|39|0|positive
+633|Heart|These Dreams|36|0|positive
+636|Belinda Carlisle|Mad About You|20|0|positive
+641|Cyndi Lauper|True Colors|53|13|positive
+647|Miami Sound Machine|Words Get In The Way|76|29|positive
+652|Jets|Crush On You|100|0|positive
+654|Genesis|Invisible Touch|42|0|positive
+657|Stevie Nicks|Talk To Me|27|0|positive
+665|James Brown|Living In America|57|0|positive
+670|Mike and The Mechanics|Silent Running|23|4|positive
+687|Elton John|Nikita|38|15|positive
+689|Run-D.M.C.|Walk This Way|16|0|positive
+690|Anita Baker|Sweet Love|54|5|positive
+695|Force M.D.'s|Tender Love|60|0|positive
+697|Lionel Richie|Love Will Conquer All|101|0|positive
+713|Crowded House|Don't Dream It's Over|39|11|positive
+715|U2|With Or Without You|57|15|positive
+726|Debbie Gibson|Only In My Dreams|28|4|positive
+756|Europe|Carrie|27|7|positive
+761|Cyndi Lauper|Change Of Heart|24|4|positive
+789|Bruce Willis|Respect Yourself|13|0|positive
+796|Kenny Loggins|Meet Me Half Way|26|6|positive
+797|Cutting Crew|I've Been In Love Before|44|10|positive
+807|Belinda Carlisle|Heaven Is A Place On Earth|21|0|positive
+813|Gloria Estefan and Miami Sound Machine|Anything For You|100|0|positive
+841|Bon Jovi|Bad Medicine|19|0|positive
+846|INXS|Devil Inside|15|0|positive
+856|U2|Desire|23|0|positive
+871|Elton John|Candle In The Wind|32|17|positive
+874|Keith Sweat|I Want Her|24|6|positive
+892|John Cougar Mellancamp|Cherry Bomb|14|4|positive
+900|Taylor Dayne|Prove Your Love|24|0|positive
+916|Milli Vanilli|Girl I'm Gonna Miss You|34|12|positive
+941|Sheena Easton|The Lover In Me|14|0|positive
+968|Cure|Love Song|59|17|positive
+972|Eddie Money|Walk On Water|52|0|positive
+1001|Wilson Phillips|Hold On|41|5|positive
+1023|Johnny Gill|Rub You The Right Way|67|0|positive
+1030|Seduction|Two To Make It Right|104|0|positive
+1038|Janet Jackson|Rhythm Nation|146|2|positive
+1044|Janet Jackson|Alright|140|0|positive
+1056|Phil Collins|I Wish It Would Rain Down|57|40|positive
+1060|After 7|Can't Stop|47|0|positive
+1083|Babyface|Whip Appeal|70|4|positive
+1133|R.E.M.|Losing My Religion|31|13|positive
+1134|Gloria Estefan|Coming Out Of The Dark|72|12|positive
+1136|C+C Music Factory|Here We Go|100|0|positive
+1149|Michael Bolton|Love Is A Wonderful Thing|68|0|positive
+595|Sting|Fortress Around Your Heart|57|104|negative
+605|Mr. Mister|Broken Wings|5|2|negative
+624|Starship|Sara|8|5|negative
+631|Billy Ocean|When The Going Gets Tough|12|6|negative
+635|Madonna|Live To Tell|22|22|negative
+672|John Cougar Mellencamp|Small Town|11|2|negative
+680|ZZ Top|Sleeping Bag|8|2|negative
+686|Arcadia|Election Day|6|6|negative
+708|Bruce Hornsby and The Range|The Way It Is|15|6|negative
+763|Dan Hill|Can't We Try|0|34|negative
+769|Glass Tiger|Someday|6|3|negative
+777|Expose|Let Me Be The One|0|40|negative
+786|Bruce Springsteen|Brilliant Disguise|25|16|negative
+808|Tiffany|Could've Been|6|3|negative
+826|Johnny Hates Jazz|Shattered Dreams|6|3|negative
+832|Debbie Gibson|Foolish Beat|15|16|negative
+839|UB40|Red Red Wine|13|4|negative
+847|Richard Marx|Should've Known Better|16|12|negative
+883|Paul Carrack|Don't Shed A Tear|5|5|negative
+884|Sting|We'll Be Together|12|53|negative
+885|Joan Jett and The Blackhearts|I Hate Myself For Loving You|14|7|negative
+898|Poison|Nothin' But A Good Time|25|78|negative
+901|Chicago|Look Away|24|16|negative
+903|Poison|Every Rose Has Its Thorn|25|78|negative
+931|Mike and The Mechanics|The Living Years|14|11|negative
+961|Skid Row|18 And Life|0|4|negative
+966|Bangles|In Your Room|12|12|negative
+982|Bon Jovi|Lay Your Hands On Me|13|4|negative
+991|Alice Cooper|Poison|17|11|negative
+1010|Jon Bon Jovi|Blaze Of Glory|8|5|negative
+1025|Sweet Sensation|If Wishes Came True|0|25|negative
+1032|Poison|Unskinny Bop|13|71|negative
+1061|Aerosmith|Janie's Got A Gun|7|3|negative
+1096|Motley Crue|Without You|18|10|negative
+1098|Prince|Thieves In The Temple|12|4|negative
+1125|Tara Kemp|Hold You Tight|20|20|negative
+1137|Celine Dion|Where Does My Heart Beat Now|11|17|negative
+1146|Extreme|Hole Hearted|12|23|negative
+1172|UB40|Here I Am (Come And Take Me)|6|6|negative
+1178|Poison|Something To Believe In|20|104|negative
+1184|Tara Kemp|Piece Of My Heart|100|100|negative
+1187|Aaron Neville|Everybody Plays The Fool|9|9|negative
+1192|Sting|All This Time|28|69|negative
+1237|Boyz II Men|It's So Hard To Say Goodbye To Yesterday|56|48|negative
+1244|P.M. Dawn|Set Adrift On Memory Bliss|53|47|negative
+1270|Bryan Adams|Do I Have To Say The Words?|9|6|negative
+1306|SWV|Weak|68|62|negative
+1322|Soul Asylum|Runaway Train|26|21|negative
+1337|Onyx|Slam|11|6|negative
+1353|Dr. Dre|Dre Day|0|50|negative
+1354|Brian McKnight|One Last Cry|32|30|negative
+1356|2Pac|I Get Around|11|4|negative

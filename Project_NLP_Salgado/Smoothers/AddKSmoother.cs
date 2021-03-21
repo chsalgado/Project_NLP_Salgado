@@ -4,7 +4,7 @@
     {
         public double K { get; set; }
 
-        public double ComputeSmoothedWordProbability(string u, string v, string w, int nGramCount, int n_1_gramCount)
+        public double ComputeSmoothedWordProbability(string u, string v, string w, int nGramCount, int n_1_gramCount, int uniqueNGrams)
         {
             return (nGramCount * 1.0 + K) / (n_1_gramCount + K * Corpus.ValidVocabulary.Count + 2); // Include STOP and UNK symbols
         }

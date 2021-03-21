@@ -24,9 +24,14 @@ namespace Project_NLP_Salgado
                     vCount++;
                     this.NGramCounts[vUnigram.GetComparisonKey()] = vCount;
 
-                    this.NGramCounts.TryGetValue(vwBigram.GetComparisonKey(), out int vwCount);
+                    var isNewNgram = !this.NGramCounts.TryGetValue(vwBigram.GetComparisonKey(), out int vwCount);
                     vwCount++;
                     this.NGramCounts[vwBigram.GetComparisonKey()] = vwCount;
+
+                    if (isNewNgram)
+                    {
+                        this.UniqueNGramsCount++;
+                    }
 
                     // Replace previous token
                     v = w;
@@ -74,7 +79,7 @@ namespace Project_NLP_Salgado
 
             // q(w|v) = c(v, w)/c(v)
             // q(w|v)_{addK} = (c(v, w) + k)/(c(v) + k|V*|) 
-            double qWv = this.Smoother.ComputeSmoothedWordProbability(u,v, w, vwCount, vCount);
+            double qWv = this.Smoother.ComputeSmoothedWordProbability(u,v, w, vwCount, vCount, this.UniqueNGramsCount);
 
             return qWv;
         }

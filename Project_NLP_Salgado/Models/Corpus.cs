@@ -8,20 +8,30 @@ namespace Project_NLP_Salgado
     public class Corpus
     {
         public static IDictionary<string, HashSet<string>> CategoriesMap { get; set; }
+        public static IDictionary<string, HashSet<string>> DocumentToCategoryMap { get; set; }
+
         public static HashSet<string> ValidVocabulary { get; set; }
 
-        public static void InitializeAndFillCategoriesMap(string path)
+        public static void InitializeAndFillCategoriesMap(string pathToCatsFile)
         {
-            var fileToCategoriesRawLines = File.ReadAllLines(Path.Combine(path, "Dataset/reuters/cats.txt"));
+            var fileToCategoriesRawLines = File.ReadAllLines(Path.Combine(pathToCatsFile, "cats.txt"));
 
             CategoriesMap = new Dictionary<string, HashSet<string>>();
+            DocumentToCategoryMap = new Dictionary<string, HashSet<string>>();
             foreach (var fileToCategoryLine in fileToCategoriesRawLines)
             {
                 var splittedLine = fileToCategoryLine.Split();
                 var fileId = splittedLine[0];
                 var catergories = splittedLine[1..];
 
-                foreach(var category in catergories)
+                if (!DocumentToCategoryMap.ContainsKey(fileId))
+                {
+                    DocumentToCategoryMap[fileId] = new HashSet<string>();
+                }
+
+                DocumentToCategoryMap[fileId] = catergories.ToHashSet();
+
+                foreach (var category in catergories)
                 {
                     if(!CategoriesMap.ContainsKey(category))
                     {
@@ -45,11 +55,11 @@ namespace Project_NLP_Salgado
 
         public int TotalWordsCount { get; set; }
 
-        public void InitializeAndPreprocessCategoryCorpus(string path, string category, LanguageModelHyperparameters hyperparameters)
+        public void InitializeAndPreprocessCategoryCorpus(string pathToDocuments, string category, LanguageModelHyperparameters hyperparameters)
         {
             Category = category;
 
-            var allDocumentPaths = Directory.GetFiles(path);
+            var allDocumentPaths = Directory.GetFiles(pathToDocuments);
 
             AllTokenizedSentences = new List<List<string>>();
             foreach (var documentPath in allDocumentPaths)

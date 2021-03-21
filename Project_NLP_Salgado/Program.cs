@@ -26,38 +26,49 @@ namespace Project_NLP_Salgado
                 Console.WriteLine($"{appConfigName} not found in {args[0]}");
             }
 
-            var allRuns = File.ReadAllLines(Path.Combine(args[0], appConfigName)).Where(s => !string.IsNullOrWhiteSpace(s) && !s.StartsWith("##"));
-            var allHyperparameters = allRuns.Select(r => LanguageModelHyperparameters.GenerateFromArguments(r));
+            var configPath = args[0];
+            var allRuns = File.ReadAllLines(Path.Combine(configPath, appConfigName)).Where(s => !string.IsNullOrWhiteSpace(s) && !s.StartsWith("##"));
 
-            // Our corpus existing classification is independent of training
-            Corpus.InitializeAndFillCategoriesMap(args[0]);
-            NaiveBayesClassifier.InitializeAndFillCategoryTrainingCounts(Corpus.CategoriesMap);
+            string dataset = args.Length > 1 && args[1].ToLower().Equals("-usesongs") ? "songs" : "reuters";
+            string datasetCrossValRootPath = Path.Combine(configPath, @$"Dataset/{dataset}/CrossVal/");
 
-            foreach (var hyperparameters in allHyperparameters)
+            int crossValidationValue = new DirectoryInfo(datasetCrossValRootPath).GetDirectories().Length;
+            for (int i = 0; i < crossValidationValue; i++)
             {
-                var globalStopwatch = new Stopwatch();
-                globalStopwatch.Start();
+                Console.WriteLine($@"Cross validation iteration {i + 1}");
+                var allHyperparameters = allRuns.Select(r => LanguageModelHyperparameters.GenerateFromArguments(r));
+                var crossValIterationPath = Path.Combine(datasetCrossValRootPath, @$"{i + 1}");
 
-                // We do this here as volcabulary can change depending on hyperparams
-                Console.WriteLine($@"Parsing all training documents to get valid vocabulary and train collection level unigram model (used by some smoothing techniques)...");
-                var allCategoriesTrainingCorpus = new Corpus();
-                allCategoriesTrainingCorpus.InitializeAndPreprocessCategoryCorpus(Path.Combine(args[0], "Dataset/reuters/training"), "ALLCATEGORIES", hyperparameters);
-                Corpus.InitializeAndFillValidVocabulary(allCategoriesTrainingCorpus, hyperparameters);
-                Console.WriteLine($@"Generated valid vocabulary. Elapsed time: {globalStopwatch.ElapsedMilliseconds}");
+                // Our corpus existing classification is independent of training
+                Corpus.InitializeAndFillCategoriesMap(crossValIterationPath);
+                NaiveBayesClassifier.InitializeAndFillCategoryTrainingCounts(Corpus.CategoriesMap);
 
-                TrainAllLanguageModels(hyperparameters, args[0], allCategoriesTrainingCorpus);
-                
-                Console.WriteLine();
-                Console.WriteLine($@"Training done in {globalStopwatch.ElapsedMilliseconds} ms");
+                foreach (var hyperparameters in allHyperparameters)
+                {
+                    var globalStopwatch = new Stopwatch();
+                    globalStopwatch.Start();
 
-                Console.WriteLine();
-                Console.WriteLine($@"Classifying documents"); 
-                ClassifyAllTestDocuments(hyperparameters, args[0]);
-                Console.WriteLine($@"Elapsed time: {globalStopwatch.ElapsedMilliseconds} ms");
+                    // We do this here as volcabulary can change depending on hyperparams
+                    //Console.WriteLine($@"Parsing all training documents to get valid vocabulary and train collection level unigram model (used by some smoothing techniques)...");
+                    var allCategoriesTrainingCorpus = new Corpus();
+                    allCategoriesTrainingCorpus.InitializeAndPreprocessCategoryCorpus(Path.Combine(crossValIterationPath, "training"), "ALLCATEGORIES", hyperparameters);
+                    Corpus.InitializeAndFillValidVocabulary(allCategoriesTrainingCorpus, hyperparameters);
+                    //Console.WriteLine($@"Generated valid vocabulary. Elapsed time: {globalStopwatch.ElapsedMilliseconds}");
+
+                    TrainAllLanguageModels(hyperparameters, crossValIterationPath, allCategoriesTrainingCorpus);
+
+                    //Console.WriteLine();
+                    //Console.WriteLine($@"Training done in {globalStopwatch.ElapsedMilliseconds} ms");
+
+                    //Console.WriteLine();
+                    //Console.WriteLine($@"Classifying documents"); 
+                    ClassifyAllTestDocuments(hyperparameters, crossValIterationPath);
+                    //Console.WriteLine($@"Elapsed time: {globalStopwatch.ElapsedMilliseconds} ms");
+                }
             }
         }
 
-        private static void TrainAllLanguageModels(LanguageModelHyperparameters hyperparameters, string basePath, Corpus preProcessedCollectionCorpus)
+        private static void TrainAllLanguageModels(LanguageModelHyperparameters hyperparameters, string crossValIterationPath, Corpus preProcessedCollectionCorpus)
         {
             var stopwatch = new Stopwatch();
             
@@ -77,7 +88,7 @@ namespace Project_NLP_Salgado
                 else
                 {
                     preProcessedCategoryTrainingCorpus = new Corpus();
-                    preProcessedCategoryTrainingCorpus.InitializeAndPreprocessCategoryCorpus(Path.Combine(basePath, "Dataset/reuters/training"), category, hyperparameters);
+                    preProcessedCategoryTrainingCorpus.InitializeAndPreprocessCategoryCorpus(Path.Combine(crossValIterationPath, "training"), category, hyperparameters);
                 }
 
                 TextProcessingUtilities.UnkCorpus(preProcessedCategoryTrainingCorpus, Corpus.ValidVocabulary);
@@ -92,9 +103,9 @@ namespace Project_NLP_Salgado
             }
         }
 
-        private static void ClassifyAllTestDocuments(LanguageModelHyperparameters hyperparameters, string basePath)
+        private static void ClassifyAllTestDocuments(LanguageModelHyperparameters hyperparameters, string crossValIterationPath)
         {
-            var pathForTestingDocuments = Path.Combine(basePath, "Dataset/reuters/", hyperparameters.TestCorpusTag);
+            var pathForTestingDocuments = Path.Combine(crossValIterationPath, "test");
             var documentPaths = Directory.GetFiles(pathForTestingDocuments);
             var correctlyClassifiedDocuments = 0;
 
@@ -102,7 +113,9 @@ namespace Project_NLP_Salgado
             var processedDocuments = 0;
             foreach (var documentPath in documentPaths)
             {
-                var predictedCategory = NaiveBayesClassifier.ClassifyDocument(documentPath, hyperparameters);
+                var categoryProbabilities = NaiveBayesClassifier.GetCategoryProbabilitiesForDocument(documentPath, hyperparameters);
+                var sortedCategoryProbabilities = categoryProbabilities.OrderByDescending(cp => cp.Value);
+
                 processedDocuments++;
 
                 if (processedDocuments % 100 == 0)
@@ -112,15 +125,16 @@ namespace Project_NLP_Salgado
 
                 var documentName = $@"{new DirectoryInfo(documentPath).Parent.Name}/{Path.GetFileName(documentPath)}";
 
-                allPredictions.Add($@"{documentName} {predictedCategory}");
-                if (Corpus.CategoriesMap[predictedCategory].Contains(documentName))
+                int numberOfLabelsInDocument = Corpus.DocumentToCategoryMap[documentName].Count;
+                allPredictions.Add($@"{documentName} {string.Join(' ', sortedCategoryProbabilities.Take(numberOfLabelsInDocument).Select(cp => cp.Key))}");
+                if (Corpus.CategoriesMap[sortedCategoryProbabilities.First().Key].Contains(documentName))
                 {
                     correctlyClassifiedDocuments++;
                 }
             }
 
-            File.WriteAllLines(Path.Combine(basePath, "predictions"), allPredictions);
-            Console.WriteLine();
+            File.WriteAllLines(Path.Combine(crossValIterationPath, "predictions"), allPredictions);
+            //Console.WriteLine();
             Console.WriteLine($@"Correctly classified {correctlyClassifiedDocuments} / {documentPaths.Length} documents ({correctlyClassifiedDocuments * 1.0 / documentPaths.Length})");
         }
     }
@@ -128,7 +142,6 @@ namespace Project_NLP_Salgado
     public class LanguageModelHyperparameters
     {
         public IDictionary<string, INGramLanguageModel> CategoryNGramLanguageModelsMap { get; set; }
-        public string TestCorpusTag { get; set; }
         public double UnkRatio { get; set; }
         public bool IgnoreCase { get; set; }
         public double L1 { get; set; }
@@ -153,10 +166,19 @@ namespace Project_NLP_Salgado
                     smoother = new MaxLikelihoodSmoother();
                     break;
                 case "addk":
-                    smoother = new AddKSmoother { K = Double.Parse(splittedArgs[Array.IndexOf(splittedArgs, "-k") + 1]) };
+                    smoother = new AddKSmoother { K = Double.Parse(splittedArgs[Array.IndexOf(splittedArgs, "-l1") + 1]) };
                     break;
                 case "jm":
-                    smoother = new JelinekMercerSmoother { CollectionLevelLanguageModel = collectionLevelLanguageModel, L = Double.Parse(splittedArgs[Array.IndexOf(splittedArgs, "-l") + 1]) };
+                    smoother = new JelinekMercerSmoother { CollectionLevelLanguageModel = collectionLevelLanguageModel, L = Double.Parse(splittedArgs[Array.IndexOf(splittedArgs, "-l1") + 1]) };
+                    break;
+                case "dirichlet":
+                    smoother = new DirichletSmoother { CollectionLevelLanguageModel = collectionLevelLanguageModel, M = Double.Parse(splittedArgs[Array.IndexOf(splittedArgs, "-l1") + 1]) };
+                    break;
+                case "ad":
+                    smoother = new AbsoluteDiscountSmoother { CollectionLevelLanguageModel = collectionLevelLanguageModel, D = Double.Parse(splittedArgs[Array.IndexOf(splittedArgs, "-l1") + 1]) };
+                    break;
+                case "ts":
+                    smoother = new TwoStageSmoother { CollectionLevelLanguageModel = collectionLevelLanguageModel, L = Double.Parse(splittedArgs[Array.IndexOf(splittedArgs, "-l1") + 1]), M = Double.Parse(splittedArgs[Array.IndexOf(splittedArgs, "-l2") + 1]) };
                     break;
             }
 
@@ -190,7 +212,6 @@ namespace Project_NLP_Salgado
             return new LanguageModelHyperparameters
             {
                 CategoryNGramLanguageModelsMap = nGramLanguageModels,
-                TestCorpusTag = splittedArgs[Array.IndexOf(splittedArgs, "-testcorpustag") + 1],
                 UnkRatio = Array.IndexOf(splittedArgs, "-unkratio") >= 0 ? Double.Parse(splittedArgs[Array.IndexOf(splittedArgs, "-unkratio") + 1]) : 0.1,
                 IgnoreCase = Array.IndexOf(splittedArgs, "-ignorecase") >= 0,
                 L1 = Array.IndexOf(splittedArgs, "-l1") >= 0 ? Double.Parse(splittedArgs[Array.IndexOf(splittedArgs, "-l1") + 1]) : 0.0,

@@ -14,6 +14,7 @@ namespace Project_NLP_Salgado
 
             // Add n-gram counts (used in numerator)
             this.NGramCounts = flattenedTokenizedAndProcessedSentences.GroupBy(w => w).ToDictionary(g => new Unigram { w = g.Key }.GetComparisonKey(), g => g.Count());
+            this.UniqueNGramsCount = NGramCounts.Count;
 
             // Add n-1-gram counts (used in denominator)
             // In the case of unigrams, we care about total token counts, including STOP tokens
@@ -52,7 +53,7 @@ namespace Project_NLP_Salgado
 
             // q(w) = c(w)/c()
             // q(w)_{addK} = (c(w) + k)/(c() + k|V*|) 
-            double qW = this.Smoother.ComputeSmoothedWordProbability(u, v, w, wCount, totalTokenCount);
+            double qW = this.Smoother.ComputeSmoothedWordProbability(u, v, w, wCount, totalTokenCount, this.UniqueNGramsCount);
 
             return qW;
         }

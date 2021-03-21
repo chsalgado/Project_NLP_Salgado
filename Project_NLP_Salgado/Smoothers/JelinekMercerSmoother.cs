@@ -5,7 +5,7 @@
         public INGramLanguageModel CollectionLevelLanguageModel { get; set; }
         public double L { get; set; }
 
-        public double ComputeSmoothedWordProbability(string u, string v, string w, int nGramCount, int n_1_gramCount)
+        public double ComputeSmoothedWordProbability(string u, string v, string w, int nGramCount, int n_1_gramCount, int uniqueNGrams)
         {
             double qMlWcat = (nGramCount * 1.0) / (n_1_gramCount);
             qMlWcat = double.IsFinite(qMlWcat) ? qMlWcat : 0.0;
