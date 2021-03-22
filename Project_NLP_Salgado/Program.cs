@@ -43,6 +43,15 @@ namespace Project_NLP_Salgado
                 Corpus.InitializeAndFillCategoriesMap(crossValIterationPath);
                 NaiveBayesClassifier.InitializeAndFillCategoryTrainingCounts(Corpus.CategoriesMap);
 
+                // Delete previous predictions files
+                var dir = new DirectoryInfo(crossValIterationPath);
+
+                foreach (var file in dir.EnumerateFiles("predictions*"))
+                {
+                    file.Delete();
+                }
+
+                var runId = 1;
                 foreach (var hyperparameters in allHyperparameters)
                 {
                     var globalStopwatch = new Stopwatch();
@@ -62,8 +71,11 @@ namespace Project_NLP_Salgado
 
                     //Console.WriteLine();
                     //Console.WriteLine($@"Classifying documents"); 
-                    ClassifyAllTestDocuments(hyperparameters, crossValIterationPath);
+                    var allPredictions = ClassifyAllTestDocuments(hyperparameters, crossValIterationPath);
+                    File.WriteAllLines(Path.Combine(crossValIterationPath, @$"predictions{runId}"), allPredictions);
                     //Console.WriteLine($@"Elapsed time: {globalStopwatch.ElapsedMilliseconds} ms");
+
+                    runId++;
                 }
             }
         }
@@ -103,7 +115,7 @@ namespace Project_NLP_Salgado
             }
         }
 
-        private static void ClassifyAllTestDocuments(LanguageModelHyperparameters hyperparameters, string crossValIterationPath)
+        private static IEnumerable<string> ClassifyAllTestDocuments(LanguageModelHyperparameters hyperparameters, string crossValIterationPath)
         {
             var pathForTestingDocuments = Path.Combine(crossValIterationPath, "test");
             var documentPaths = Directory.GetFiles(pathForTestingDocuments);
@@ -133,9 +145,9 @@ namespace Project_NLP_Salgado
                 }
             }
 
-            File.WriteAllLines(Path.Combine(crossValIterationPath, "predictions"), allPredictions);
             //Console.WriteLine();
             Console.WriteLine($@"Correctly classified {correctlyClassifiedDocuments} / {documentPaths.Length} documents ({correctlyClassifiedDocuments * 1.0 / documentPaths.Length})");
+            return allPredictions;
         }
     }
 

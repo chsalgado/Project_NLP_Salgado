@@ -1,0 +1,3019 @@
+test/14826 earn
+test/14828 earn
+test/14829 earn acq
+test/14832 earn acq money-fx grain trade crude interest
+test/14833 earn acq
+test/14839 earn
+test/14840 earn acq money-fx grain crude
+test/14841 earn acq
+test/14842 earn
+test/14843 earn
+test/14844 earn
+test/14849 earn acq
+test/14852 earn acq
+test/14854 earn
+test/14858 earn acq grain money-fx trade crude interest wheat
+test/14859 earn
+test/14860 earn
+test/14861 earn acq
+test/14862 earn acq
+test/14863 earn acq
+test/14865 earn
+test/14867 earn
+test/14872 earn
+test/14873 earn
+test/14875 earn
+test/14876 earn
+test/14877 earn
+test/14881 earn
+test/14882 earn
+test/14885 earn
+test/14886 earn
+test/14888 earn
+test/14890 earn acq
+test/14891 earn acq
+test/14892 earn acq money-fx grain crude
+test/14899 earn
+test/14900 earn
+test/14903 earn
+test/14904 earn
+test/14907 earn
+test/14909 earn
+test/14911 earn
+test/14912 earn
+test/14913 earn acq money-fx
+test/14918 earn
+test/14919 earn acq
+test/14921 acq
+test/14922 earn
+test/14923 earn
+test/14926 earn
+test/14928 earn
+test/14930 earn
+test/14931 earn acq
+test/14932 earn
+test/14933 earn
+test/14934 earn
+test/14941 earn
+test/14943 earn
+test/14949 earn
+test/14951 earn
+test/14954 earn
+test/14957 earn
+test/14958 earn
+test/14959 earn
+test/14960 earn
+test/14962 earn
+test/14963 earn
+test/14964 earn acq
+test/14965 earn
+test/14967 earn
+test/14968 earn
+test/14969 earn
+test/14970 earn
+test/14971 earn
+test/14974 earn
+test/14975 earn
+test/14978 earn
+test/14981 earn
+test/14982 earn
+test/14983 earn
+test/14984 earn
+test/14985 earn
+test/14986 earn
+test/14987 earn
+test/14988 earn
+test/14993 earn
+test/14995 earn
+test/14998 earn
+test/15000 earn
+test/15001 earn
+test/15002 earn
+test/15004 earn
+test/15005 earn
+test/15006 earn
+test/15011 earn
+test/15012 earn
+test/15013 earn
+test/15016 earn
+test/15017 earn
+test/15020 earn
+test/15023 earn
+test/15024 earn
+test/15026 earn
+test/15027 earn
+test/15028 earn
+test/15029 earn
+test/15031 earn
+test/15032 earn
+test/15033 earn acq
+test/15037 earn
+test/15038 earn
+test/15043 sunseed sorghum earn oilseed grain acq corn
+test/15045 earn
+test/15046 earn
+test/15048 earn
+test/15049 earn
+test/15052 earn
+test/15053 earn
+test/15055 earn
+test/15056 earn
+test/15060 earn
+test/15061 earn
+test/15062 earn
+test/15063 earn acq money-fx crude
+test/15065 earn
+test/15067 earn
+test/15069 earn
+test/15070 earn
+test/15074 earn
+test/15077 earn
+test/15078 earn
+test/15079 earn
+test/15082 earn
+test/15090 earn
+test/15091 earn
+test/15092 earn
+test/15093 earn
+test/15094 earn
+test/15095 earn
+test/15096 earn
+test/15097 earn acq
+test/15103 earn
+test/15104 earn
+test/15106 earn acq grain money-fx
+test/15107 earn
+test/15109 earn
+test/15110 earn
+test/15111 earn
+test/15112 earn
+test/15118 earn
+test/15119 earn
+test/15120 earn
+test/15121 earn
+test/15122 earn
+test/15124 earn
+test/15126 earn
+test/15128 earn
+test/15129 earn acq
+test/15130 earn
+test/15132 earn acq
+test/15136 earn
+test/15138 earn
+test/15141 earn
+test/15144 earn
+test/15145 earn
+test/15146 earn
+test/15149 earn
+test/15152 earn
+test/15153 earn
+test/15154 earn
+test/15156 earn
+test/15157 earn
+test/15161 earn
+test/15162 earn
+test/15171 earn
+test/15172 earn
+test/15175 earn
+test/15179 earn
+test/15180 earn
+test/15185 earn
+test/15188 earn
+test/15189 earn
+test/15190 earn
+test/15193 earn
+test/15194 earn
+test/15197 earn
+test/15198 earn
+test/15200 earn
+test/15204 earn
+test/15205 earn
+test/15206 earn
+test/15207 earn
+test/15208 earn
+test/15210 earn
+test/15211 earn
+test/15212 earn acq money-fx
+test/15213 earn
+test/15217 earn
+test/15219 earn
+test/15220 earn
+test/15221 earn
+test/15222 earn
+test/15223 earn
+test/15226 earn
+test/15227 earn
+test/15230 earn
+test/15233 earn
+test/15234 earn
+test/15237 earn
+test/15238 earn acq
+test/15239 earn
+test/15240 earn
+test/15242 earn
+test/15243 earn
+test/15244 earn
+test/15246 earn
+test/15247 earn
+test/15250 earn
+test/15253 earn
+test/15254 earn acq
+test/15255 earn
+test/15258 earn
+test/15259 earn
+test/15262 earn acq
+test/15263 earn
+test/15264 earn
+test/15265 earn
+test/15270 earn
+test/15271 earn acq
+test/15273 earn acq
+test/15274 earn
+test/15276 earn
+test/15278 earn
+test/15280 earn
+test/15281 earn
+test/15283 earn
+test/15287 earn acq
+test/15290 earn acq
+test/15292 earn
+test/15294 earn
+test/15295 earn
+test/15296 earn
+test/15299 earn
+test/15300 earn
+test/15302 earn
+test/15303 earn
+test/15306 earn
+test/15307 earn
+test/15308 earn
+test/15309 earn
+test/15310 earn
+test/15311 earn
+test/15312 earn
+test/15313 earn acq
+test/15314 earn
+test/15315 earn
+test/15321 earn
+test/15322 earn acq
+test/15324 earn
+test/15325 earn
+test/15326 earn
+test/15327 earn
+test/15329 earn
+test/15335 earn
+test/15336 earn
+test/15337 earn
+test/15339 earn acq
+test/15341 earn acq money-fx grain
+test/15344 earn acq
+test/15345 earn
+test/15348 earn
+test/15349 earn
+test/15351 earn acq
+test/15352 earn
+test/15354 earn
+test/15356 earn
+test/15357 earn
+test/15359 earn
+test/15363 earn
+test/15364 earn acq
+test/15365 earn
+test/15366 earn
+test/15367 earn acq
+test/15368 earn
+test/15372 earn acq
+test/15375 earn acq
+test/15378 earn acq
+test/15379 earn
+test/15380 earn
+test/15383 earn
+test/15384 earn
+test/15386 earn
+test/15387 earn
+test/15388 earn acq
+test/15389 earn
+test/15391 earn
+test/15394 earn
+test/15396 earn
+test/15397 earn
+test/15400 earn
+test/15404 earn
+test/15406 earn
+test/15409 earn
+test/15410 earn
+test/15411 earn
+test/15413 earn
+test/15415 earn
+test/15416 earn
+test/15417 earn
+test/15420 earn acq money-fx
+test/15421 earn
+test/15424 earn
+test/15425 earn
+test/15427 earn
+test/15428 earn
+test/15429 earn
+test/15430 earn
+test/15431 earn acq
+test/15432 earn
+test/15436 earn acq
+test/15438 earn
+test/15441 earn
+test/15442 earn acq
+test/15444 earn acq
+test/15446 earn
+test/15447 earn
+test/15448 earn
+test/15449 earn acq
+test/15450 earn
+test/15451 earn
+test/15452 earn acq
+test/15453 earn
+test/15454 earn
+test/15455 earn
+test/15457 earn
+test/15459 earn
+test/15460 earn acq
+test/15462 earn
+test/15464 earn
+test/15467 earn
+test/15468 earn
+test/15471 earn
+test/15472 earn acq
+test/15476 earn
+test/15477 earn
+test/15478 earn
+test/15479 earn
+test/15481 earn
+test/15482 earn
+test/15483 earn
+test/15484 earn
+test/15485 earn
+test/15487 earn
+test/15489 earn
+test/15494 earn
+test/15495 earn
+test/15496 earn
+test/15500 earn acq money-fx grain crude trade interest wheat corn ship oilseed money-supply
+test/15501 earn
+test/15503 earn
+test/15504 earn
+test/15510 earn
+test/15511 earn
+test/15515 earn
+test/15520 earn acq
+test/15521 earn
+test/15522 earn acq
+test/15523 earn
+test/15527 earn
+test/15528 earn
+test/15531 earn acq
+test/15532 earn acq
+test/15535 earn
+test/15536 earn acq
+test/15539 earn acq
+test/15540 earn
+test/15542 earn
+test/15543 earn
+test/15544 earn
+test/15545 earn
+test/15547 earn
+test/15548 earn
+test/15549 earn money-fx
+test/15550 earn
+test/15551 earn
+test/15552 earn acq money-fx
+test/15553 earn
+test/15556 earn
+test/15558 earn
+test/15559 earn
+test/15560 earn
+test/15561 earn
+test/15562 earn
+test/15563 earn
+test/15565 earn
+test/15566 earn
+test/15567 earn acq grain money-fx
+test/15568 earn
+test/15569 earn
+test/15570 earn
+test/15571 earn
+test/15572 earn acq
+test/15573 earn
+test/15574 earn acq
+test/15575 earn
+test/15578 earn
+test/15579 earn
+test/15580 earn
+test/15581 earn
+test/15582 earn acq
+test/15583 earn
+test/15584 earn
+test/15585 earn
+test/15590 earn
+test/15591 earn
+test/15593 earn
+test/15594 earn
+test/15595 earn
+test/15596 earn
+test/15597 earn
+test/15598 earn
+test/15600 earn
+test/15601 earn
+test/15602 earn
+test/15603 earn
+test/15605 earn
+test/15607 earn
+test/15610 earn
+test/15613 earn
+test/15615 earn acq
+test/15616 earn
+test/15617 earn
+test/15618 earn acq grain money-fx
+test/15620 earn
+test/15621 earn
+test/15623 earn
+test/15624 earn
+test/15625 earn acq
+test/15626 earn
+test/15629 earn
+test/15632 earn
+test/15634 earn
+test/15636 earn
+test/15637 earn
+test/15639 earn
+test/15640 earn
+test/15641 earn
+test/15642 earn acq
+test/15643 earn
+test/15646 earn acq
+test/15648 earn acq
+test/15649 earn acq
+test/15651 earn
+test/15653 earn
+test/15655 earn
+test/15656 earn
+test/15664 earn
+test/15666 earn
+test/15667 earn
+test/15668 earn
+test/15669 earn
+test/15672 earn
+test/15674 earn
+test/15675 earn
+test/15676 earn acq money-fx grain
+test/15677 earn acq
+test/15679 earn
+test/15680 earn
+test/15682 earn
+test/15686 earn acq grain money-fx crude
+test/15688 earn
+test/15689 earn acq
+test/15691 earn
+test/15692 earn
+test/15694 earn
+test/15695 earn
+test/15696 earn acq
+test/15698 earn
+test/15702 earn
+test/15703 earn
+test/15704 earn
+test/15707 earn
+test/15708 earn
+test/15709 earn
+test/15710 earn acq
+test/15713 earn
+test/15715 earn
+test/15717 earn
+test/15719 earn
+test/15720 earn acq
+test/15721 earn acq
+test/15723 earn
+test/15725 earn acq
+test/15726 earn acq
+test/15727 earn acq
+test/15728 earn acq money-fx grain
+test/15729 earn
+test/15732 earn
+test/15733 earn
+test/15736 earn
+test/15737 earn acq
+test/15739 earn
+test/15742 earn
+test/15749 earn
+test/15751 earn acq
+test/15753 earn
+test/15757 earn
+test/15759 earn
+test/15762 earn
+test/15767 earn
+test/15768 earn
+test/15769 earn
+test/15772 earn
+test/15777 earn
+test/15778 earn
+test/15780 earn
+test/15782 earn
+test/15785 earn
+test/15790 earn
+test/15793 earn
+test/15797 earn
+test/15798 earn acq
+test/15800 earn
+test/15801 earn
+test/15803 earn
+test/15804 earn
+test/15805 earn
+test/15807 earn
+test/15808 earn
+test/15810 earn
+test/15811 earn
+test/15816 earn
+test/15817 earn
+test/15819 earn
+test/15821 earn
+test/15822 earn
+test/15823 earn
+test/15829 earn
+test/15831 earn
+test/15832 earn
+test/15833 earn
+test/15834 earn
+test/15836 earn acq
+test/15838 earn
+test/15840 earn
+test/15841 earn
+test/15842 earn
+test/15844 earn
+test/15845 earn acq money-fx grain crude
+test/15846 earn
+test/15847 earn
+test/15851 earn
+test/15852 earn
+test/15853 earn acq grain money-fx crude trade interest wheat corn
+test/15854 earn
+test/15855 earn
+test/15856 earn acq
+test/15858 earn
+test/15859 earn
+test/15860 earn acq money-fx
+test/15861 earn
+test/15863 earn acq grain
+test/15864 earn acq
+test/15865 earn acq
+test/15866 earn acq
+test/15867 earn
+test/15868 earn acq
+test/15869 earn acq
+test/15870 earn acq
+test/15871 lin-oil sun-oil soy-oil sunseed sorghum veg-oil earn soybean oilseed wheat corn grain acq nickel
+test/15872 earn
+test/15874 earn acq
+test/15875 oat sorghum barley corn earn oilseed grain soybean rye wheat acq rice soy-meal cotton
+test/15876 earn
+test/15877 earn acq
+test/15878 earn
+test/15879 earn
+test/15881 earn
+test/15885 earn
+test/15886 earn
+test/15888 earn
+test/15889 earn
+test/15890 earn acq money-fx grain crude trade interest wheat corn ship
+test/15892 earn
+test/15893 earn acq
+test/15894 earn
+test/15895 earn acq
+test/15896 earn
+test/15897 earn
+test/15898 earn
+test/15899 earn
+test/15900 earn
+test/15901 earn
+test/15902 earn
+test/15903 earn acq
+test/15904 earn acq
+test/15906 earn acq grain money-fx crude trade wheat interest corn ship oilseed
+test/15908 earn
+test/15909 earn
+test/15910 earn acq
+test/15911 earn acq grain money-fx crude
+test/15912 earn
+test/15913 earn
+test/15914 earn
+test/15916 earn acq
+test/15917 earn acq grain money-fx crude trade interest
+test/15918 earn
+test/15920 earn
+test/15921 earn acq
+test/15922 earn acq
+test/15923 earn acq
+test/15924 earn
+test/15925 earn
+test/15927 earn acq
+test/15928 earn acq
+test/15929 earn
+test/15930 earn
+test/15932 earn
+test/15933 earn
+test/15934 earn
+test/15937 earn
+test/15939 earn
+test/15942 earn acq
+test/15944 earn
+test/15949 earn
+test/15950 earn
+test/15951 earn
+test/15952 oat barley earn acq sorghum grain
+test/15953 earn acq money-fx grain
+test/15956 earn
+test/15959 earn
+test/15960 earn
+test/15961 earn
+test/15963 earn
+test/15964 earn
+test/15967 earn
+test/15968 earn
+test/15969 earn
+test/15970 earn
+test/15973 earn
+test/15975 earn acq grain money-fx
+test/15976 earn
+test/15977 earn
+test/15978 earn
+test/15979 earn
+test/15980 earn
+test/15981 earn
+test/15984 earn
+test/15985 earn
+test/15987 earn
+test/15988 earn
+test/15989 earn
+test/15993 earn
+test/15995 earn
+test/15996 earn
+test/15997 earn
+test/15999 earn acq grain money-fx
+test/16002 earn
+test/16003 earn
+test/16004 earn
+test/16005 earn
+test/16006 earn
+test/16007 earn acq money-fx
+test/16009 earn acq money-fx grain trade crude
+test/16012 earn acq
+test/16013 earn
+test/16014 earn acq
+test/16015 earn
+test/16016 earn
+test/16021 earn
+test/16022 earn
+test/16023 earn
+test/16026 earn
+test/16029 earn
+test/16030 earn
+test/16033 earn
+test/16037 earn
+test/16040 earn acq
+test/16041 earn
+test/16045 earn
+test/16052 earn
+test/16053 earn acq money-fx
+test/16055 earn
+test/16063 earn
+test/16066 earn acq
+test/16067 earn acq
+test/16068 earn acq
+test/16069 earn acq
+test/16071 earn acq grain money-fx crude
+test/16072 earn acq
+test/16074 earn
+test/16075 earn
+test/16076 earn
+test/16077 earn
+test/16079 earn acq
+test/16080 earn acq money-fx
+test/16083 earn acq
+test/16086 earn
+test/16088 earn
+test/16091 earn
+test/16093 earn
+test/16094 earn
+test/16095 earn
+test/16096 earn
+test/16097 earn
+test/16098 earn
+test/16099 earn acq grain
+test/16100 earn
+test/16103 earn
+test/16106 earn acq
+test/16107 earn
+test/16108 earn acq money-fx
+test/16110 earn
+test/16111 earn acq
+test/16112 earn
+test/16115 earn
+test/16117 earn
+test/16118 earn acq money-fx grain trade
+test/16119 earn
+test/16120 earn
+test/16122 earn
+test/16123 earn
+test/16125 earn
+test/16126 earn
+test/16130 earn
+test/16133 earn
+test/16134 earn
+test/16136 earn
+test/16139 earn
+test/16140 earn
+test/16141 earn
+test/16142 earn
+test/16143 earn
+test/16144 earn acq
+test/16145 earn
+test/16146 earn
+test/16147 earn acq grain money-fx crude
+test/16148 earn
+test/16149 earn
+test/16150 earn
+test/16152 earn
+test/16155 earn
+test/16158 earn acq money-fx trade
+test/16159 earn
+test/16161 earn acq
+test/16162 earn acq
+test/16163 acq
+test/16164 earn
+test/16166 earn
+test/16170 earn
+test/16171 earn
+test/16172 earn
+test/16173 earn
+test/16175 earn
+test/16176 earn
+test/16177 earn
+test/16179 earn
+test/16180 earn acq
+test/16185 earn
+test/16188 earn
+test/16189 earn acq
+test/16190 earn acq
+test/16193 earn acq
+test/16194 earn
+test/16195 earn
+test/16196 earn
+test/16197 earn
+test/16200 earn
+test/16201 earn
+test/16202 earn
+test/16203 earn
+test/16206 earn
+test/16207 earn
+test/16210 earn
+test/16211 earn
+test/16212 earn
+test/16213 earn
+test/16214 earn
+test/16215 earn
+test/16216 earn
+test/16219 earn
+test/16221 earn
+test/16223 earn
+test/16225 earn
+test/16226 earn acq money-fx
+test/16228 earn
+test/16230 earn
+test/16232 earn
+test/16233 earn
+test/16234 earn
+test/16236 earn
+test/16238 earn
+test/16241 earn
+test/16243 earn
+test/16244 earn
+test/16246 earn
+test/16247 earn
+test/16248 earn acq money-fx
+test/16250 earn acq
+test/16251 earn
+test/16252 earn
+test/16255 earn acq
+test/16256 earn
+test/16257 earn
+test/16258 earn
+test/16260 earn
+test/16262 earn
+test/16263 earn
+test/16264 earn
+test/16265 earn acq grain
+test/16266 earn
+test/16268 earn acq money-fx
+test/16269 earn
+test/16270 earn
+test/16271 earn acq
+test/16274 earn
+test/16275 earn
+test/16277 earn
+test/16278 earn
+test/16279 earn
+test/16281 earn
+test/16282 earn
+test/16283 earn
+test/16284 earn
+test/16285 earn
+test/16286 earn
+test/16287 earn
+test/16288 earn
+test/16289 earn
+test/16291 earn
+test/16294 earn
+test/16297 earn
+test/16298 earn
+test/16299 earn
+test/16300 earn
+test/16301 earn
+test/16302 earn
+test/16303 earn
+test/16304 earn
+test/16307 earn
+test/16310 earn
+test/16311 earn
+test/16312 earn
+test/16314 earn
+test/16315 earn
+test/16316 earn
+test/16317 earn
+test/16318 earn
+test/16319 earn
+test/16320 earn acq
+test/16324 earn
+test/16327 earn
+test/16331 earn
+test/16332 earn
+test/16336 earn
+test/16337 earn
+test/16339 earn
+test/16342 earn
+test/16343 earn
+test/16346 earn
+test/16347 earn
+test/16348 earn
+test/16350 earn
+test/16354 earn
+test/16357 earn
+test/16359 earn
+test/16360 earn
+test/16362 earn acq
+test/16363 earn
+test/16365 earn
+test/16366 earn acq
+test/16367 earn
+test/16369 earn
+test/16370 earn
+test/16371 earn
+test/16372 earn
+test/16374 earn
+test/16376 earn
+test/16377 earn
+test/16379 earn acq money-fx
+test/16380 earn
+test/16383 earn acq
+test/16385 earn
+test/16386 earn
+test/16388 earn
+test/16390 earn
+test/16392 earn
+test/16393 earn
+test/16394 earn
+test/16395 earn
+test/16396 earn
+test/16398 earn
+test/16399 earn
+test/16400 earn
+test/16401 earn
+test/16402 earn acq
+test/16403 earn
+test/16404 earn
+test/16405 earn
+test/16406 earn
+test/16407 earn
+test/16409 earn
+test/16410 earn
+test/16415 earn
+test/16417 earn
+test/16418 earn
+test/16419 earn
+test/16420 earn
+test/16421 earn
+test/16422 earn
+test/16424 earn
+test/16426 earn
+test/16427 earn
+test/16428 earn
+test/16429 earn
+test/16430 earn
+test/16432 earn
+test/16433 earn acq
+test/16434 earn
+test/16437 earn
+test/16438 earn acq
+test/16440 earn
+test/16441 earn
+test/16442 earn
+test/16443 earn
+test/16444 earn
+test/16448 earn
+test/16449 earn
+test/16450 earn
+test/16454 earn
+test/16457 earn
+test/16458 earn
+test/16459 earn
+test/16460 earn
+test/16461 earn
+test/16463 earn
+test/16465 earn
+test/16468 earn
+test/16469 earn
+test/16470 earn
+test/16471 earn
+test/16472 earn
+test/16473 earn
+test/16475 earn
+test/16476 earn
+test/16478 earn
+test/16479 earn
+test/16480 earn
+test/16481 earn
+test/16483 earn acq
+test/16486 earn
+test/16487 earn
+test/16488 earn
+test/16490 earn
+test/16492 earn
+test/16493 earn
+test/16495 earn
+test/16496 earn
+test/16499 earn
+test/16502 earn
+test/16505 earn
+test/16510 earn
+test/16512 earn
+test/16513 earn
+test/16518 earn
+test/16519 earn acq
+test/16521 earn
+test/16522 earn
+test/16523 earn
+test/16525 earn acq grain money-fx crude
+test/16527 earn
+test/16530 earn
+test/16531 earn
+test/16533 earn
+test/16538 earn
+test/16539 earn
+test/16545 earn
+test/16546 earn
+test/16549 earn
+test/16551 earn
+test/16554 earn
+test/16555 earn
+test/16561 earn
+test/16563 earn
+test/16564 earn acq
+test/16565 earn interest
+test/16568 earn
+test/16569 earn
+test/16570 earn
+test/16574 earn
+test/16577 earn
+test/16581 earn
+test/16583 earn
+test/16584 earn
+test/16585 earn
+test/16587 earn
+test/16588 earn
+test/16589 earn
+test/16590 earn
+test/16591 earn
+test/16592 earn
+test/16593 earn acq
+test/16597 earn
+test/16598 earn
+test/16599 earn
+test/16600 earn
+test/16601 earn acq
+test/16602 earn
+test/16604 earn
+test/16606 earn
+test/16607 earn
+test/16608 earn
+test/16610 earn
+test/16611 earn
+test/16615 earn
+test/16619 earn
+test/16621 earn
+test/16622 earn
+test/16623 earn
+test/16624 earn acq
+test/16625 earn
+test/16626 earn
+test/16627 earn
+test/16628 earn
+test/16630 orange
+test/16633 earn
+test/16635 earn
+test/16636 earn
+test/16638 earn
+test/16641 earn
+test/16642 earn
+test/16644 earn
+test/16645 earn
+test/16646 earn
+test/16648 earn
+test/16649 earn
+test/16650 earn
+test/16651 earn
+test/16652 earn
+test/16653 earn
+test/16654 earn
+test/16655 earn
+test/16656 earn
+test/16658 earn
+test/16662 earn
+test/16663 earn
+test/16664 earn
+test/16665 earn
+test/16667 earn
+test/16668 earn
+test/16670 earn
+test/16672 earn
+test/16675 earn
+test/16676 earn
+test/16677 earn
+test/16678 earn
+test/16679 earn
+test/16680 earn
+test/16681 earn
+test/16684 earn
+test/16685 earn
+test/16687 earn
+test/16688 earn
+test/16695 earn
+test/16698 earn
+test/16700 earn
+test/16705 earn
+test/16706 earn
+test/16707 earn
+test/16708 earn
+test/16710 earn
+test/16711 earn
+test/16714 earn
+test/16715 earn
+test/16717 earn
+test/16718 earn
+test/16719 earn
+test/16723 earn
+test/16725 earn
+test/16726 earn
+test/16727 earn
+test/16734 earn
+test/16735 earn
+test/16737 earn
+test/16739 earn
+test/16740 earn
+test/16743 earn acq
+test/16744 earn acq
+test/16745 earn
+test/16746 earn
+test/16747 earn
+test/16749 earn
+test/16750 earn
+test/16751 earn acq
+test/16752 earn acq
+test/16753 earn acq
+test/16754 earn
+test/16755 earn
+test/16759 earn
+test/16761 earn
+test/16762 earn
+test/16763 earn acq
+test/16765 earn acq
+test/16766 earn acq
+test/16767 earn
+test/16770 earn
+test/16772 earn
+test/16774 earn
+test/16775 earn acq
+test/16776 earn
+test/16777 earn
+test/16779 earn
+test/16783 earn
+test/16784 earn acq money-fx grain
+test/16787 earn
+test/16788 earn
+test/16790 earn acq
+test/16792 earn
+test/16794 earn
+test/16795 earn
+test/16796 earn
+test/16797 earn
+test/16798 earn
+test/16799 earn
+test/16800 earn
+test/16801 earn
+test/16802 earn
+test/16803 earn
+test/16804 earn
+test/16806 earn
+test/16807 earn
+test/16808 earn
+test/16809 earn
+test/16810 earn
+test/16811 earn
+test/16812 earn
+test/16813 earn
+test/16814 earn
+test/16815 earn
+test/16816 earn
+test/16817 earn
+test/16818 earn
+test/16819 earn
+test/16824 earn
+test/16825 earn
+test/16826 earn
+test/16833 earn
+test/16834 earn
+test/16835 earn
+test/16836 earn
+test/16837 earn
+test/16838 earn
+test/16839 earn
+test/16843 earn
+test/16848 earn
+test/16850 earn
+test/16851 earn
+test/16852 earn
+test/16853 earn
+test/16854 earn
+test/16856 earn
+test/16858 earn
+test/16865 earn
+test/16868 earn
+test/16871 earn
+test/16872 earn
+test/16873 earn
+test/16874 earn
+test/16875 earn
+test/16884 earn
+test/16885 earn
+test/16886 earn
+test/16888 earn
+test/16890 earn
+test/16893 earn
+test/16897 earn
+test/16903 earn
+test/16908 earn
+test/16909 earn
+test/16910 earn
+test/16911 earn
+test/16912 earn
+test/16913 earn
+test/16916 earn
+test/16917 earn
+test/16918 earn
+test/16921 earn
+test/16922 earn
+test/16923 earn
+test/16925 earn
+test/16926 earn
+test/16929 earn
+test/16932 earn
+test/17031 earn
+test/17032 earn
+test/17034 earn
+test/17035 earn
+test/17036 earn
+test/17037 earn
+test/17038 earn
+test/17039 earn
+test/17041 earn acq
+test/17042 earn
+test/17044 earn acq
+test/17045 earn
+test/17046 earn
+test/17047 earn acq
+test/17048 earn
+test/17051 earn acq
+test/17052 earn
+test/17053 earn
+test/17054 earn
+test/17436 earn
+test/17440 earn
+test/17441 earn acq
+test/17442 earn
+test/17443 earn acq grain
+test/17445 earn
+test/17446 earn
+test/17448 earn
+test/17449 earn
+test/17452 earn
+test/17455 earn
+test/17457 earn
+test/17462 earn
+test/17463 earn
+test/17470 earn
+test/17472 earn
+test/17473 earn
+test/17477 coconut earn acq money-fx grain trade
+test/17478 earn
+test/17479 earn
+test/17480 earn acq money-fx
+test/17481 earn
+test/17484 earn
+test/17486 earn acq money-fx
+test/17487 earn
+test/17488 earn
+test/17489 earn
+test/17491 earn
+test/17492 earn acq
+test/17493 earn
+test/17494 earn
+test/17499 earn
+test/17501 earn
+test/17502 earn
+test/17503 earn acq grain
+test/17506 earn
+test/17507 earn
+test/17509 earn acq money-fx grain
+test/17511 earn
+test/17513 earn
+test/17516 earn acq
+test/17518 earn
+test/17519 earn
+test/17521 earn acq
+test/17523 earn
+test/17529 earn
+test/17534 earn
+test/17538 earn
+test/17540 earn
+test/17543 earn
+test/17544 earn
+test/17545 earn
+test/17547 earn
+test/17551 earn
+test/17554 earn
+test/17556 earn
+test/17558 earn
+test/17559 earn
+test/17562 earn
+test/17563 earn
+test/17567 earn
+test/17568 earn
+test/17569 earn
+test/17573 earn
+test/17574 earn
+test/17576 earn
+test/17577 earn acq
+test/17579 earn
+test/17580 earn acq
+test/17584 earn
+test/17585 earn acq
+test/17589 earn
+test/17593 earn
+test/17595 earn
+test/17596 earn
+test/17597 earn
+test/17601 earn
+test/17607 earn
+test/17612 earn
+test/17616 earn
+test/17617 earn
+test/17618 earn
+test/17619 earn
+test/17620 earn acq money-fx interest
+test/17622 earn
+test/17625 earn
+test/17630 earn
+test/17632 earn
+test/17633 earn
+test/17640 earn
+test/17643 earn
+test/17644 earn
+test/17651 earn
+test/17652 earn
+test/17654 earn acq
+test/17655 earn
+test/17658 earn acq
+test/17659 earn
+test/17660 earn
+test/17661 earn
+test/17662 earn acq
+test/17664 earn acq
+test/17666 earn
+test/17669 earn acq
+test/17670 earn acq
+test/17671 earn
+test/17672 earn
+test/17673 earn
+test/17674 earn
+test/17677 earn
+test/17682 earn
+test/17683 earn
+test/17685 earn
+test/17686 earn
+test/17687 earn
+test/17688 earn
+test/17694 earn
+test/17698 earn
+test/17700 earn
+test/17701 earn
+test/17702 earn
+test/17703 earn
+test/17706 earn
+test/17707 earn
+test/17710 earn
+test/17712 earn
+test/17714 earn acq money-fx grain
+test/17716 earn
+test/17719 earn
+test/17722 earn acq money-fx grain
+test/17723 earn
+test/17727 earn
+test/17728 earn
+test/17731 earn
+test/17733 earn
+test/17738 earn
+test/17742 earn
+test/17743 earn acq
+test/17746 earn
+test/17748 earn
+test/17749 earn
+test/17750 earn acq
+test/17751 earn
+test/17752 earn
+test/17753 earn
+test/17755 earn acq money-fx
+test/17757 earn
+test/17758 earn
+test/17759 earn
+test/17760 earn
+test/17762 earn
+test/17763 earn
+test/17766 earn
+test/17767 earn acq
+test/17769 earn acq
+test/17770 earn
+test/17771 earn
+test/17773 earn
+test/17775 earn
+test/17776 earn
+test/17777 earn
+test/17780 earn
+test/17782 earn
+test/17783 earn acq money-fx
+test/17784 earn
+test/17785 earn
+test/17787 earn
+test/17788 earn
+test/17791 earn
+test/17792 earn
+test/17795 earn
+test/17798 earn
+test/17802 earn
+test/17805 earn acq money-fx
+test/17808 earn
+test/17809 earn
+test/17810 earn
+test/17811 earn
+test/17812 earn
+test/17813 earn
+test/17816 earn
+test/17822 earn
+test/17823 earn
+test/17825 earn
+test/17827 earn acq
+test/17829 earn
+test/17834 earn
+test/17835 earn
+test/17837 earn
+test/17839 earn
+test/17847 earn
+test/17848 earn
+test/17849 earn
+test/17853 earn
+test/17857 earn
+test/17860 earn
+test/17863 earn
+test/17864 earn
+test/17866 earn
+test/17867 earn
+test/17870 earn
+test/17871 earn acq money-fx
+test/17872 earn
+test/17873 earn
+test/17874 earn
+test/17875 earn
+test/17876 earn
+test/17877 earn
+test/17878 earn
+test/17880 earn
+test/17881 earn
+test/17883 earn acq
+test/17886 earn acq
+test/17887 earn
+test/17888 earn acq
+test/17892 earn
+test/17894 earn
+test/17896 earn
+test/17897 earn
+test/17899 earn
+test/17900 earn
+test/17901 earn
+test/17906 earn
+test/17907 earn
+test/17911 earn
+test/17913 earn acq money-fx
+test/17915 earn
+test/17916 earn
+test/17922 earn
+test/17923 earn
+test/17924 earn acq
+test/17925 earn
+test/17926 earn acq
+test/17927 earn
+test/17929 earn
+test/17930 earn
+test/17932 earn
+test/17933 earn
+test/17939 earn
+test/17943 earn
+test/17948 earn
+test/17950 earn
+test/17952 earn
+test/17955 earn acq money-fx
+test/17956 earn
+test/17957 earn
+test/17958 earn
+test/17960 earn
+test/17962 earn acq money-fx
+test/17963 earn
+test/17964 earn
+test/17965 earn
+test/17966 earn acq
+test/17967 earn
+test/17968 earn
+test/17970 earn acq
+test/17972 earn
+test/17973 earn
+test/17975 earn
+test/17978 earn
+test/17979 earn
+test/17980 earn
+test/17981 earn
+test/17984 earn acq
+test/17986 earn
+test/17988 earn
+test/17993 earn
+test/18001 earn
+test/18009 earn
+test/18010 earn acq
+test/18011 earn
+test/18012 earn acq
+test/18013 earn acq money-fx
+test/18014 earn
+test/18017 earn
+test/18024 earn acq
+test/18028 earn
+test/18029 earn
+test/18034 earn
+test/18035 earn acq
+test/18036 earn
+test/18037 earn
+test/18038 earn
+test/18040 earn
+test/18048 earn
+test/18050 earn
+test/18051 earn acq
+test/18052 earn
+test/18061 earn
+test/18062 earn
+test/18065 earn
+test/18066 earn
+test/18068 earn
+test/18071 earn
+test/18075 earn
+test/18079 earn
+test/18080 earn
+test/18085 earn
+test/18086 earn acq
+test/18093 earn
+test/18095 earn
+test/18096 earn
+test/18099 earn
+test/18101 earn
+test/18104 earn
+test/18106 earn
+test/18108 earn
+test/18109 earn
+test/18111 earn
+test/18120 earn
+test/18128 earn acq
+test/18135 earn
+test/18136 earn acq
+test/18138 earn
+test/18142 earn acq money-fx
+test/18145 earn
+test/18146 earn acq
+test/18148 earn
+test/18149 earn
+test/18150 earn
+test/18152 earn
+test/18155 earn
+test/18157 earn
+test/18158 earn
+test/18160 earn
+test/18166 earn
+test/18176 earn
+test/18177 earn acq money-fx grain
+test/18180 earn
+test/18182 earn
+test/18185 earn acq
+test/18186 earn
+test/18187 earn
+test/18188 earn
+test/18191 earn
+test/18205 earn
+test/18210 earn
+test/18213 earn acq
+test/18217 earn
+test/18221 earn
+test/18222 earn
+test/18223 earn
+test/18225 earn
+test/18228 earn
+test/18229 earn
+test/18231 earn
+test/18232 earn
+test/18234 earn
+test/18236 earn
+test/18238 earn
+test/18239 earn
+test/18242 earn
+test/18243 earn
+test/18249 earn
+test/18252 earn
+test/18253 earn
+test/18254 earn
+test/18257 earn
+test/18258 earn
+test/18263 earn acq
+test/18271 earn
+test/18275 earn acq
+test/18276 earn
+test/18277 earn
+test/18280 earn
+test/18281 earn
+test/18283 earn
+test/18294 earn
+test/18296 earn
+test/18297 earn acq
+test/18300 earn
+test/18302 earn
+test/18303 earn
+test/18306 earn acq
+test/18307 earn
+test/18308 earn
+test/18309 earn
+test/18311 earn acq
+test/18313 earn
+test/18317 earn acq
+test/18321 earn
+test/18323 earn
+test/18325 earn acq money-fx
+test/18326 earn
+test/18328 earn
+test/18329 earn acq
+test/18332 earn
+test/18334 earn
+test/18336 earn
+test/18337 earn acq
+test/18339 earn
+test/18340 earn acq
+test/18342 earn
+test/18345 earn acq money-fx grain
+test/18347 earn acq
+test/18348 earn
+test/18351 earn
+test/18352 earn
+test/18354 earn
+test/18355 earn
+test/18356 earn
+test/18357 earn
+test/18360 earn
+test/18362 earn
+test/18363 earn acq money-fx
+test/18366 earn
+test/18367 earn
+test/18370 earn acq money-fx
+test/18465 earn
+test/18466 earn
+test/18467 earn
+test/18470 earn
+test/18472 earn
+test/18476 earn
+test/18479 earn
+test/18480 earn acq money-fx
+test/18481 earn
+test/18482 earn acq grain money-fx crude trade interest corn wheat
+test/18483 earn
+test/18487 earn
+test/18488 earn
+test/18489 earn acq
+test/18490 earn
+test/18493 earn
+test/18495 earn
+test/18496 earn acq
+test/18497 earn
+test/18504 earn
+test/18509 earn
+test/18514 earn
+test/18519 earn
+test/18520 earn
+test/18521 earn acq
+test/18523 earn
+test/18524 earn
+test/18527 earn
+test/18530 earn
+test/18531 earn
+test/18533 earn
+test/18534 earn
+test/18536 earn
+test/18537 earn
+test/18538 earn
+test/18539 earn
+test/18540 earn
+test/18544 earn acq
+test/18549 earn
+test/18554 earn
+test/18557 earn
+test/18563 earn
+test/18564 earn
+test/18565 earn
+test/18566 earn
+test/18567 earn
+test/18569 earn
+test/18570 earn
+test/18571 earn acq
+test/18575 earn
+test/18576 earn
+test/18577 earn
+test/18585 earn
+test/18590 earn
+test/18591 earn
+test/18592 earn
+test/18595 earn
+test/18599 earn
+test/18600 earn
+test/18602 earn
+test/18604 earn
+test/18605 earn
+test/18606 earn
+test/18609 earn acq money-fx
+test/18610 earn
+test/18614 earn acq
+test/18616 earn
+test/18621 earn
+test/18625 earn acq
+test/18627 earn
+test/18638 earn
+test/18642 earn acq money-fx
+test/18643 earn
+test/18644 earn
+test/18646 earn
+test/18648 earn
+test/18651 earn acq
+test/18654 earn
+test/18655 earn
+test/18658 earn
+test/18660 earn
+test/18663 earn
+test/18664 earn
+test/18665 earn
+test/18667 earn
+test/18668 earn
+test/18670 earn
+test/18672 earn acq money-fx interest
+test/18674 earn
+test/18676 earn
+test/18678 earn
+test/18680 earn
+test/18682 earn
+test/18686 earn
+test/18688 earn
+test/18689 earn
+test/18692 earn
+test/18698 earn
+test/18699 earn
+test/18700 earn
+test/18701 earn
+test/18703 earn
+test/18704 earn
+test/18705 earn
+test/18706 earn
+test/18707 earn
+test/18708 earn
+test/18713 earn
+test/18718 earn
+test/18719 earn
+test/18721 earn
+test/18724 earn acq
+test/18728 earn
+test/18730 earn
+test/18732 earn
+test/18736 earn
+test/18738 earn
+test/18739 earn
+test/18743 earn
+test/18744 earn
+test/18746 earn
+test/18747 earn
+test/18748 earn acq
+test/18749 earn
+test/18750 earn acq
+test/18751 earn
+test/18752 earn
+test/18753 earn acq
+test/18754 earn
+test/18763 earn acq
+test/18765 earn
+test/18768 earn
+test/18769 earn
+test/18773 earn
+test/18774 earn
+test/18778 earn
+test/18779 earn
+test/18781 earn acq grain money-fx crude interest trade
+test/18782 earn
+test/18783 earn
+test/18789 earn
+test/18795 earn
+test/18798 earn acq
+test/18807 earn
+test/18810 earn
+test/18811 earn
+test/18816 earn
+test/18824 earn
+test/18828 earn
+test/18830 earn
+test/18832 earn
+test/18835 earn
+test/18840 earn
+test/18842 earn
+test/18849 copper
+test/18851 earn
+test/18852 earn
+test/18856 earn
+test/18857 earn acq money-fx
+test/18858 earn
+test/18859 earn
+test/18860 earn
+test/18861 earn
+test/18863 earn
+test/18865 earn
+test/18867 earn
+test/18870 earn
+test/18872 earn
+test/18873 earn
+test/18875 earn
+test/18882 earn
+test/18888 earn
+test/18895 earn
+test/18896 earn acq
+test/18898 earn
+test/18899 earn acq
+test/18902 earn
+test/18904 earn
+test/18906 earn
+test/18908 earn acq money-fx
+test/18910 earn
+test/18911 earn acq money-fx
+test/18917 earn
+test/18920 earn
+test/18921 earn
+test/18922 earn
+test/18924 earn
+test/18930 earn
+test/18932 earn
+test/18938 earn
+test/18943 earn
+test/18944 earn
+test/18945 earn
+test/18946 earn
+test/18951 earn
+test/18952 earn
+test/18953 earn
+test/18954 earn acq
+test/18955 earn
+test/18959 earn
+test/18962 earn
+test/18963 earn
+test/18973 earn acq
+test/18975 earn
+test/18985 earn acq
+test/18986 earn
+test/18987 earn acq money-fx
+test/18988 earn
+test/18990 earn acq
+test/18991 earn acq money-fx
+test/18992 earn
+test/18993 earn acq money-fx
+test/18994 earn
+test/18995 earn
+test/18996 earn acq money-fx
+test/18997 earn
+test/19000 earn acq money-fx
+test/19004 earn
+test/19005 earn acq money-fx
+test/19006 earn
+test/19009 earn
+test/19017 earn
+test/19020 earn
+test/19021 earn acq
+test/19022 earn
+test/19023 earn acq
+test/19028 earn acq money-fx
+test/19029 earn
+test/19033 earn
+test/19037 earn
+test/19040 earn acq
+test/19041 earn
+test/19042 earn
+test/19044 earn
+test/19045 earn
+test/19048 earn
+test/19050 earn
+test/19053 earn
+test/19055 earn acq
+test/19057 earn acq
+test/19059 earn acq
+test/19061 earn acq money-fx grain trade
+test/19062 earn
+test/19065 earn
+test/19069 earn
+test/19073 earn
+test/19075 earn acq
+test/19077 earn
+test/19079 earn
+test/19081 earn
+test/19082 earn
+test/19083 earn
+test/19087 earn
+test/19088 earn acq
+test/19092 earn
+test/19097 earn
+test/19101 earn
+test/19110 earn acq
+test/19113 earn
+test/19118 earn
+test/19121 earn
+test/19122 earn
+test/19127 earn
+test/19128 earn
+test/19136 earn
+test/19137 earn
+test/19142 earn
+test/19152 earn acq
+test/19155 earn
+test/19159 earn
+test/19163 earn
+test/19165 earn acq grain
+test/19167 earn
+test/19169 earn acq
+test/19170 earn
+test/19171 earn
+test/19174 earn
+test/19178 earn
+test/19180 earn
+test/19181 earn
+test/19182 earn
+test/19191 earn
+test/19193 earn
+test/19198 earn
+test/19199 earn
+test/19201 earn acq
+test/19202 earn
+test/19208 earn
+test/19213 earn acq
+test/19223 earn
+test/19229 earn acq
+test/19237 earn acq
+test/19238 earn
+test/19240 earn
+test/19241 earn
+test/19254 earn
+test/19255 earn
+test/19256 earn
+test/19258 earn
+test/19262 earn
+test/19263 earn
+test/19267 earn
+test/19269 earn acq
+test/19270 earn
+test/19271 earn acq
+test/19272 earn
+test/19273 earn
+test/19275 earn acq grain money-fx
+test/19277 earn acq
+test/19280 earn
+test/19281 earn
+test/19283 earn
+test/19284 earn
+test/19285 earn
+test/19286 earn
+test/19290 earn
+test/19291 earn
+test/19293 earn
+test/19294 earn
+test/19295 earn
+test/19297 earn
+test/19304 earn
+test/19307 earn
+test/19308 earn
+test/19312 earn
+test/19318 earn
+test/19322 earn acq
+test/19325 earn
+test/19327 earn
+test/19329 earn
+test/19331 earn
+test/19334 earn
+test/19341 earn
+test/19343 earn
+test/19344 earn
+test/19351 earn
+test/19352 earn
+test/19356 earn
+test/19357 earn
+test/19358 earn
+test/19359 earn
+test/19360 earn
+test/19364 earn
+test/19365 earn
+test/19367 earn acq money-fx grain
+test/19368 earn
+test/19369 earn
+test/19371 earn
+test/19373 earn
+test/19374 earn
+test/19375 earn
+test/19377 earn
+test/19378 earn
+test/19379 earn
+test/19380 earn
+test/19381 earn
+test/19383 earn
+test/19386 earn
+test/19387 earn
+test/19388 earn acq money-fx
+test/19397 earn acq money-fx
+test/19403 earn acq
+test/19406 earn
+test/19409 earn
+test/19410 earn
+test/19411 earn
+test/19412 earn
+test/19416 earn
+test/19418 earn
+test/19419 earn
+test/19420 earn
+test/19422 earn
+test/19424 earn
+test/19426 earn
+test/19427 earn
+test/19428 earn
+test/19431 earn acq
+test/19432 earn
+test/19433 earn
+test/19435 earn
+test/19440 earn
+test/19441 earn
+test/19444 earn acq
+test/19447 earn
+test/19448 earn
+test/19450 earn
+test/19451 earn
+test/19453 earn
+test/19458 earn
+test/19459 earn
+test/19461 earn
+test/19462 earn
+test/19463 earn
+test/19464 earn
+test/19466 earn
+test/19470 earn
+test/19471 earn
+test/19473 earn
+test/19474 earn
+test/19475 earn
+test/19477 earn acq
+test/19478 earn
+test/19480 earn
+test/19482 earn
+test/19483 earn
+test/19487 earn
+test/19489 earn
+test/19491 earn
+test/19492 earn
+test/19497 earn acq crude
+test/19499 earn
+test/19500 earn
+test/19501 earn
+test/19505 earn
+test/19506 earn
+test/19507 earn
+test/19509 earn
+test/19510 earn
+test/19511 earn
+test/19512 earn
+test/19513 earn
+test/19515 earn
+test/19529 earn
+test/19534 earn
+test/19537 earn acq
+test/19539 earn
+test/19540 earn
+test/19541 earn acq
+test/19545 earn
+test/19546 earn
+test/19547 earn
+test/19549 earn acq money-fx grain
+test/19551 earn
+test/19555 earn acq money-fx
+test/19556 earn
+test/19557 earn
+test/19559 earn
+test/19560 earn
+test/19561 earn
+test/19562 earn
+test/19568 earn
+test/19569 earn
+test/19570 earn acq grain
+test/19571 earn
+test/19572 earn
+test/19625 earn
+test/19630 earn acq money-fx grain
+test/19631 earn
+test/19635 earn
+test/19639 earn
+test/19642 earn
+test/19644 earn
+test/19645 earn
+test/19647 earn
+test/19648 earn
+test/19649 earn
+test/19650 earn
+test/19651 earn
+test/19653 earn
+test/19654 earn
+test/19655 earn
+test/19657 earn
+test/19658 earn
+test/19663 earn
+test/19664 earn
+test/19666 earn
+test/19667 earn
+test/19668 earn acq grain money-fx crude trade interest wheat
+test/19672 earn acq money-fx grain crude
+test/19674 earn
+test/19675 earn
+test/19679 earn
+test/19680 earn
+test/19681 earn
+test/19683 earn
+test/19684 earn acq
+test/19689 earn acq
+test/19690 earn
+test/19692 earn
+test/19693 earn acq
+test/19697 earn
+test/19699 earn
+test/19702 earn
+test/19703 earn
+test/19704 earn
+test/19706 earn
+test/19710 earn
+test/19711 earn
+test/19712 earn
+test/19713 earn
+test/19719 earn
+test/19721 earn acq grain money-fx
+test/19723 earn
+test/19726 earn
+test/19727 earn
+test/19731 earn
+test/19732 earn
+test/19734 earn
+test/19737 earn
+test/19742 earn
+test/19744 earn
+test/19745 earn
+test/19748 earn
+test/19751 earn
+test/19756 earn acq
+test/19758 earn
+test/19760 earn
+test/19761 earn
+test/19762 earn
+test/19763 earn
+test/19764 earn acq money-fx grain
+test/19766 earn
+test/19767 earn
+test/19769 earn
+test/19773 earn
+test/19775 earn
+test/19780 earn
+test/19781 earn
+test/19784 earn
+test/19786 earn
+test/19787 earn
+test/19788 earn
+test/19790 earn
+test/19796 earn
+test/19799 earn
+test/19802 earn
+test/19803 earn
+test/19807 earn
+test/19808 earn
+test/19810 earn
+test/19812 earn
+test/19815 earn
+test/19821 earn acq money-fx grain crude
+test/19823 earn
+test/19826 earn
+test/19828 earn
+test/19830 earn
+test/19831 earn
+test/19832 earn
+test/19833 earn
+test/19835 earn acq money-fx
+test/19837 earn
+test/19839 earn
+test/19844 earn
+test/19850 earn
+test/19854 earn
+test/19856 earn
+test/19860 earn
+test/19862 earn
+test/19864 earn
+test/19865 earn
+test/19866 earn
+test/19867 earn
+test/19869 earn acq
+test/19870 earn
+test/19872 earn
+test/19874 earn
+test/19875 earn acq
+test/19880 earn
+test/19882 earn
+test/19887 earn
+test/19890 earn
+test/19892 earn
+test/19895 earn
+test/19900 earn
+test/19902 earn
+test/19903 earn acq money-fx
+test/19906 earn
+test/19912 earn
+test/19913 earn
+test/19915 earn
+test/19918 earn
+test/19921 earn
+test/19927 earn
+test/19930 earn
+test/19933 earn
+test/19935 earn
+test/19939 earn
+test/19943 earn
+test/19946 earn
+test/19947 earn acq money-fx grain
+test/19950 earn
+test/19955 earn
+test/19957 earn
+test/19959 earn
+test/19962 earn
+test/19963 earn
+test/19964 earn
+test/19965 earn
+test/19966 earn
+test/19968 earn
+test/19975 earn
+test/19978 earn
+test/19981 earn
+test/19982 earn
+test/19983 earn
+test/19984 earn
+test/19985 earn
+test/19986 earn
+test/19989 earn
+test/19991 earn
+test/19993 earn
+test/19996 earn acq
+test/19998 earn
+test/20001 earn
+test/20005 earn
+test/20008 earn
+test/20009 earn
+test/20012 earn
+test/20013 earn
+test/20016 earn
+test/20018 earn acq
+test/20019 earn
+test/20021 earn
+test/20025 earn
+test/20030 earn acq
+test/20031 earn
+test/20032 earn
+test/20034 earn
+test/20035 earn
+test/20037 earn
+test/20038 earn
+test/20039 earn
+test/20045 earn
+test/20048 earn
+test/20052 earn acq
+test/20055 earn
+test/20058 earn
+test/20062 earn
+test/20063 earn
+test/20068 earn
+test/20071 earn
+test/20079 earn
+test/20080 earn
+test/20081 earn
+test/20082 earn
+test/20083 earn
+test/20087 earn
+test/20089 earn
+test/20090 earn
+test/20092 earn acq
+test/20093 earn acq
+test/20095 earn
+test/20096 earn acq
+test/20101 earn acq
+test/20103 earn acq
+test/20105 earn
+test/20106 earn
+test/20112 earn
+test/20114 earn
+test/20116 housing
+test/20117 earn
+test/20118 earn
+test/20119 earn
+test/20127 earn
+test/20129 earn
+test/20132 earn
+test/20135 earn
+test/20137 earn
+test/20138 earn
+test/20140 earn
+test/20142 earn
+test/20145 earn
+test/20151 earn
+test/20153 earn
+test/20159 earn
+test/20161 earn
+test/20165 earn
+test/20166 earn
+test/20168 earn
+test/20170 earn
+test/20174 earn
+test/20176 earn
+test/20180 earn
+test/20181 earn
+test/20186 earn
+test/20187 earn
+test/20189 earn
+test/20191 earn
+test/20193 earn
+test/20195 earn
+test/20206 earn
+test/20207 earn
+test/20208 earn acq money-fx grain crude trade
+test/20210 earn
+test/20213 earn
+test/20214 earn
+test/20215 earn
+test/20216 earn
+test/20217 earn
+test/20220 earn
+test/20221 earn
+test/20223 earn
+test/20226 earn
+test/20228 earn
+test/20230 earn
+test/20231 earn acq
+test/20232 earn
+test/20233 earn
+test/20234 earn
+test/20235 earn
+test/20237 earn
+test/20239 earn acq
+test/20241 earn
+test/20247 earn
+test/20248 earn acq
+test/20249 earn
+test/20251 earn
+test/20252 earn
+test/20255 earn
+test/20256 earn
+test/20257 earn
+test/20258 earn acq
+test/20259 earn
+test/20261 earn
+test/20262 earn
+test/20263 earn acq
+test/20264 earn
+test/20265 earn
+test/20266 earn
+test/20267 earn
+test/20269 earn
+test/20270 earn
+test/20273 earn
+test/20274 earn
+test/20275 earn
+test/20278 earn
+test/20279 earn
+test/20284 earn
+test/20286 earn
+test/20291 earn
+test/20297 earn
+test/20298 earn
+test/20299 earn
+test/20300 earn
+test/20302 earn
+test/20304 earn
+test/20306 earn
+test/20308 earn
+test/20309 earn
+test/20310 earn
+test/20311 earn
+test/20314 earn
+test/20318 earn
+test/20319 earn
+test/20321 earn
+test/20324 earn
+test/20328 earn
+test/20332 earn
+test/20333 earn acq
+test/20334 earn
+test/20335 earn acq grain
+test/20337 earn
+test/20339 earn
+test/20340 earn
+test/20341 earn
+test/20343 earn acq
+test/20344 earn
+test/20347 earn
+test/20348 earn
+test/20352 earn
+test/20353 earn
+test/20357 earn
+test/20358 earn
+test/20363 earn
+test/20364 earn
+test/20365 earn
+test/20366 earn acq
+test/20367 earn
+test/20368 earn
+test/20370 earn
+test/20371 earn
+test/20372 earn
+test/20373 earn
+test/20374 earn
+test/20376 earn
+test/20377 earn
+test/20378 earn
+test/20379 earn
+test/20380 earn
+test/20381 earn
+test/20382 earn
+test/20384 earn
+test/20385 earn
+test/20386 earn
+test/20388 earn
+test/20389 earn
+test/20391 earn
+test/20392 earn
+test/20393 earn
+test/20395 earn
+test/20396 earn
+test/20398 earn
+test/20400 earn
+test/20401 earn
+test/20406 earn
+test/20407 earn
+test/20409 earn
+test/20412 earn
+test/20414 earn
+test/20415 earn
+test/20419 earn
+test/20420 earn
+test/20421 earn
+test/20432 earn
+test/20438 earn
+test/20439 earn
+test/20440 earn
+test/20441 earn acq
+test/20442 earn
+test/20443 earn
+test/20444 earn
+test/20446 earn
+test/20448 earn
+test/20450 earn
+test/20453 earn
+test/20455 earn
+test/20457 earn
+test/20458 earn
+test/20459 earn
+test/20461 earn acq money-fx grain
+test/20462 earn acq trade money-fx
+test/20463 earn
+test/20464 earn acq
+test/20465 earn
+test/20467 earn
+test/20468 earn
+test/20469 earn
+test/20470 earn
+test/20471 earn
+test/20473 earn
+test/20474 earn
+test/20476 earn
+test/20479 earn
+test/20480 earn
+test/20485 earn
+test/20488 earn
+test/20489 earn
+test/20490 earn
+test/20493 earn
+test/20494 earn
+test/20496 earn
+test/20497 earn
+test/20498 earn
+test/20499 earn
+test/20500 earn acq
+test/20502 earn
+test/20507 earn
+test/20511 earn acq grain money-fx trade
+test/20514 earn
+test/20515 earn
+test/20517 earn
+test/20523 earn
+test/20525 earn
+test/20527 earn
+test/20529 earn
+test/20531 earn
+test/20532 earn
+test/20533 earn
+test/20535 earn
+test/20545 earn
+test/20546 earn
+test/20548 earn
+test/20550 earn acq money-fx grain
+test/20552 earn
+test/20557 earn
+test/20558 earn
+test/20561 earn
+test/20562 earn
+test/20564 earn
+test/20566 earn
+test/20567 earn
+test/20569 earn
+test/20583 earn
+test/20584 earn
+test/20586 earn
+test/20593 earn
+test/20596 earn
+test/20598 earn
+test/20600 earn
+test/20605 earn
+test/20606 earn
+test/20611 earn acq
+test/20618 earn
+test/20620 earn acq
+test/20624 earn
+test/20628 earn
+test/20630 earn
+test/20631 earn acq
+test/20632 earn
+test/20634 earn
+test/20637 earn acq
+test/20639 earn
+test/20640 earn
+test/20641 earn
+test/20645 earn acq money-fx grain crude
+test/20646 earn
+test/20648 earn
+test/20649 earn acq money-fx
+test/20650 earn
+test/20651 earn
+test/20652 earn
+test/20653 earn
+test/20654 earn
+test/20655 earn
+test/20657 earn
+test/20658 earn
+test/20660 earn
+test/20662 earn
+test/20666 earn
+test/20667 earn
+test/20668 earn
+test/20669 earn
+test/20670 earn
+test/20671 earn
+test/20672 earn
+test/20673 earn
+test/20678 earn acq
+test/20679 earn
+test/20680 earn
+test/20682 earn
+test/20685 earn
+test/20692 earn
+test/20693 earn
+test/20695 earn
+test/20698 earn
+test/20699 earn
+test/20706 earn
+test/20708 earn
+test/20709 earn
+test/20710 earn
+test/20711 earn
+test/20712 earn
+test/20715 earn
+test/20719 earn
+test/20721 earn
+test/20723 earn acq grain money-fx
+test/20725 earn
+test/20728 earn
+test/20730 earn acq
+test/20734 earn
+test/20735 earn
+test/20736 earn
+test/20738 earn acq
+test/20744 earn
+test/20746 earn
+test/20747 earn
+test/20753 earn
+test/20754 earn
+test/20755 earn
+test/20756 earn acq
+test/20757 earn
+test/20759 earn
+test/20763 earn acq
+test/20764 earn acq
+test/20766 earn
+test/20767 earn
+test/20768 earn
+test/20769 earn
+test/20770 earn
+test/20771 earn
+test/20773 earn
+test/20774 earn acq
+test/20775 earn
+test/20776 earn
+test/20778 earn
+test/20779 earn
+test/20784 earn
+test/20787 earn
+test/20790 earn
+test/20791 earn
+test/20792 earn
+test/20793 earn
+test/20794 earn
+test/20795 earn
+test/20797 earn
+test/20798 earn
+test/20800 earn
+test/20801 earn
+test/20802 earn
+test/20803 earn
+test/20804 earn
+test/20807 earn
+test/20811 earn
+test/20812 earn
+test/20813 earn
+test/20814 earn
+test/20817 earn
+test/20822 earn
+test/20824 earn
+test/20825 earn
+test/20826 earn
+test/20828 earn acq
+test/20829 earn
+test/20833 earn
+test/20834 earn
+test/20835 earn
+test/20836 earn
+test/20837 earn
+test/20838 earn
+test/20840 earn
+test/20858 earn
+test/20862 earn acq money-fx
+test/20865 earn
+test/20868 earn acq
+test/20869 earn
+test/20878 earn
+test/20879 earn
+test/20881 earn acq
+test/20882 earn acq
+test/20883 earn
+test/20885 earn
+test/20887 earn
+test/20888 earn
+test/20890 earn acq
+test/20893 earn
+test/20894 earn
+test/20896 earn
+test/20898 earn
+test/20900 earn
+test/20901 earn
+test/20902 earn
+test/20904 earn
+test/20905 earn
+test/20907 earn
+test/20909 earn
+test/20910 earn
+test/20911 earn acq money-fx grain trade crude
+test/20913 earn
+test/20915 earn
+test/20917 earn
+test/20918 earn
+test/20919 earn
+test/20920 earn
+test/20921 earn
+test/20922 earn
+test/20925 earn
+test/20926 earn
+test/20927 earn
+test/20930 earn
+test/20931 earn
+test/20932 earn
+test/20936 earn
+test/20937 earn
+test/20938 earn
+test/20941 earn
+test/20943 earn
+test/20944 earn
+test/20945 earn
+test/20946 earn
+test/20947 earn
+test/20948 earn
+test/20949 earn
+test/20954 earn
+test/20958 earn
+test/20959 earn
+test/20968 earn
+test/20969 earn
+test/20972 earn
+test/20973 earn
+test/20974 earn
+test/20975 earn
+test/20976 earn
+test/20979 earn
+test/20981 earn acq
+test/20982 earn
+test/20983 earn
+test/20984 earn
+test/20988 earn
+test/20989 earn
+test/20991 earn acq
+test/20995 earn
+test/21000 earn
+test/21002 earn acq
+test/21003 earn
+test/21006 earn acq
+test/21007 earn
+test/21012 earn
+test/21013 earn acq
+test/21014 earn
+test/21016 earn
+test/21017 earn
+test/21018 earn
+test/21019 earn
+test/21022 earn
+test/21023 earn
+test/21028 earn
+test/21030 earn
+test/21031 earn
+test/21032 earn
+test/21034 earn
+test/21036 earn
+test/21037 earn
+test/21038 earn
+test/21039 earn
+test/21040 earn
+test/21041 earn
+test/21042 earn
+test/21044 earn
+test/21045 earn
+test/21046 earn
+test/21047 earn
+test/21049 earn
+test/21050 earn
+test/21051 earn
+test/21053 earn
+test/21055 earn
+test/21058 earn
+test/21059 earn
+test/21060 earn
+test/21061 earn
+test/21063 earn
+test/21065 earn
+test/21067 earn
+test/21071 earn
+test/21073 earn
+test/21076 earn
+test/21077 earn
+test/21078 earn
+test/21080 earn acq
+test/21081 earn
+test/21082 earn
+test/21091 earn acq money-fx grain crude
+test/21093 earn
+test/21095 earn
+test/21096 earn
+test/21097 earn
+test/21100 earn
+test/21103 earn
+test/21105 earn
+test/21106 earn
+test/21109 earn
+test/21112 earn
+test/21113 earn
+test/21114 earn
+test/21117 earn
+test/21122 earn
+test/21123 earn
+test/21124 earn
+test/21128 earn
+test/21129 earn
+test/21130 earn
+test/21131 earn
+test/21132 earn
+test/21133 earn
+test/21134 earn
+test/21135 earn
+test/21136 earn
+test/21138 earn
+test/21140 earn
+test/21142 earn
+test/21143 earn
+test/21146 earn
+test/21148 earn
+test/21149 earn acq
+test/21151 earn
+test/21152 earn acq
+test/21157 earn acq
+test/21163 earn
+test/21164 earn
+test/21165 earn
+test/21166 earn
+test/21168 earn
+test/21172 earn acq
+test/21173 earn
+test/21175 earn
+test/21176 earn
+test/21177 earn
+test/21178 earn
+test/21179 earn
+test/21181 earn
+test/21182 earn
+test/21187 earn
+test/21189 earn
+test/21190 earn
+test/21191 earn
+test/21192 earn
+test/21193 earn
+test/21194 earn
+test/21195 earn
+test/21196 earn
+test/21197 earn
+test/21199 earn
+test/21201 earn
+test/21202 earn
+test/21203 earn
+test/21205 earn
+test/21206 earn
+test/21207 earn
+test/21208 earn
+test/21209 earn
+test/21210 earn
+test/21211 earn
+test/21212 earn
+test/21214 earn
+test/21215 earn
+test/21216 earn acq
+test/21218 earn
+test/21219 earn
+test/21221 earn
+test/21222 earn
+test/21224 earn
+test/21227 earn
+test/21228 earn
+test/21230 earn
+test/21232 earn
+test/21233 earn
+test/21234 earn
+test/21236 earn
+test/21237 earn
+test/21238 earn
+test/21240 earn
+test/21242 earn
+test/21243 earn acq money-fx
+test/21244 earn
+test/21245 earn
+test/21248 earn
+test/21251 earn
+test/21252 earn
+test/21253 earn
+test/21255 earn
+test/21256 earn
+test/21257 earn
+test/21259 earn
+test/21260 earn
+test/21261 earn
+test/21262 earn
+test/21264 earn
+test/21265 earn
+test/21266 earn
+test/21267 earn
+test/21271 earn
+test/21272 earn
+test/21274 earn
+test/21275 earn
+test/21277 earn
+test/21278 earn
+test/21281 earn
+test/21282 earn
+test/21283 earn
+test/21285 earn
+test/21286 earn
+test/21287 earn
+test/21291 earn
+test/21292 earn
+test/21293 earn
+test/21295 earn
+test/21297 earn
+test/21298 earn
+test/21300 earn
+test/21301 earn
+test/21302 earn
+test/21303 earn
+test/21307 earn
+test/21308 earn
+test/21314 earn acq
+test/21315 earn
+test/21318 earn
+test/21319 earn
+test/21321 earn
+test/21322 earn
+test/21323 earn
+test/21324 earn
+test/21325 earn
+test/21330 earn
+test/21331 earn
+test/21333 earn
+test/21336 earn
+test/21337 earn
+test/21339 earn
+test/21342 earn
+test/21343 earn
+test/21346 earn
+test/21350 earn
+test/21352 earn
+test/21354 earn
+test/21356 earn
+test/21357 earn
+test/21358 earn
+test/21359 earn
+test/21360 earn
+test/21362 earn
+test/21363 earn
+test/21367 earn acq money-fx
+test/21368 earn acq money-fx
+test/21369 earn
+test/21371 earn
+test/21372 earn
+test/21373 earn
+test/21375 earn
+test/21376 earn
+test/21378 earn
+test/21380 earn
+test/21382 earn
+test/21385 earn
+test/21386 earn
+test/21387 earn
+test/21388 earn
+test/21391 earn
+test/21392 earn acq
+test/21393 earn
+test/21394 earn
+test/21401 earn
+test/21403 earn
+test/21404 earn
+test/21405 earn
+test/21406 earn
+test/21408 earn
+test/21410 earn
+test/21411 earn
+test/21412 earn
+test/21413 earn
+test/21414 earn
+test/21415 earn
+test/21416 earn
+test/21417 earn acq money-fx
+test/21419 earn
+test/21421 earn
+test/21423 earn
+test/21427 earn
+test/21429 earn
+test/21430 earn
+test/21431 earn
+test/21435 earn
+test/21436 earn
+test/21437 earn
+test/21440 earn
+test/21441 earn
+test/21443 earn acq
+test/21447 earn
+test/21448 earn
+test/21451 earn
+test/21453 earn
+test/21454 earn
+test/21455 earn
+test/21459 earn acq
+test/21460 earn
+test/21462 earn
+test/21465 earn
+test/21466 earn
+test/21468 earn acq
+test/21469 earn
+test/21473 earn
+test/21474 earn
+test/21475 earn acq
+test/21477 earn
+test/21478 earn
+test/21479 earn
+test/21480 earn
+test/21482 earn acq
+test/21484 earn
+test/21485 earn acq
+test/21486 earn acq
+test/21488 earn
+test/21489 earn
+test/21490 earn
+test/21492 earn acq
+test/21493 earn acq money-fx grain
+test/21496 earn acq money-fx
+test/21497 earn acq
+test/21501 earn
+test/21502 earn
+test/21503 earn
+test/21506 earn acq
+test/21508 earn acq
+test/21510 earn acq
+test/21511 earn acq
+test/21512 earn
+test/21517 earn
+test/21519 earn
+test/21521 earn
+test/21523 earn
+test/21525 earn acq money-fx
+test/21526 earn acq
+test/21530 earn acq
+test/21532 earn
+test/21535 earn acq
+test/21536 earn
+test/21538 earn
+test/21539 earn
+test/21541 earn
+test/21542 earn acq money-fx interest
+test/21550 earn
+test/21551 earn
+test/21553 earn
+test/21555 earn
+test/21556 earn
+test/21557 earn
+test/21561 earn acq
+test/21562 earn
+test/21565 earn
+test/21567 earn
+test/21568 earn
+test/21570 earn acq
+test/21571 earn
+test/21573 earn acq money-fx
+test/21574 earn
+test/21575 earn
+test/21576 earn
